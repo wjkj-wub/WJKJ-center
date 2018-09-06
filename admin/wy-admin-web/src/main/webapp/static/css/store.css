@@ -1,0 +1,59 @@
+﻿.store_content{width: 100%;}
+/*.product{padding:25px;}*/
+/*选择套餐*/
+.detail-left{float: left;margin-right: 20px;}
+.detail-right{float: left;width: 550px;overflow: hidden;}
+.detail-right h3{font-size: 24px;color:#474747;padding-top:15px;table-layout:fixed; word-break: break-all; overflow:hidden;}
+.img-box{width: 400px;height: 400px;padding:6px;overflow: hidden;border:1px solid #D1D2D4;}
+.img-box img{width: 386px;height: 386px;display: inline-block;}
+.price{position: relative;background: #F5F5F5;padding:14px;margin-top: 35px;font-size: 14px;}
+.price span{display: inline-block;}
+.price .price-label{width: 85px;}
+.full-price{margin-bottom: 20px;}
+.disabled-price{text-decoration: line-through;}
+.less-price{font-size: 24px;color:#FF4F27;vertical-align: middle;}
+.deduction{background: url(../images/coin.png) left center no-repeat;padding-left: 30px;color:#C7C7C7;vertical-align: middle;margin-left: 10px;}
+.total-sale{position: absolute;width:95px;height: 46px;right:14px;top:14px;border-left:1px solid #C7C7C7;text-align: center;}
+.total-sale .sale-account{color:#0187B9;}
+.item{margin-top:30px;}
+.item-label{width: 75px;line-height: 30px;float: left;}
+.choose-box{float: left;width:450px;}
+.choose{height: 30px;line-height: 30px;display: inline-block;margin-right: 15px;text-align: center;border:1px solid #C7C7C7;margin-bottom: 18px;color:#474747;cursor: pointer;}
+.choose-group{padding: 0 20px;}
+.choose-time{width: 130px;margin-right: 10px;}
+.chosen{border:1px solid #ff4f27;background: url(../images/choose.png) right bottom no-repeat;position: relative;}
+.chosen:after{border:1px solid #ff4f27;content: "";width: 100%;height: 100%;position: absolute;left: 0;}
+.service{display: inline-block;line-height: 30px;padding-left: 30px;margin-right: 15px;}
+.g-level{background: url(../images/jin.png) left center no-repeat;}
+.region{background: url(../images/position.png) left center no-repeat;}
+.pay-box{box-shadow:0 0 2px 2px #E6E6E6;padding:25px 40px;margin-top:25px;font-size:14px;line-height:40px;}
+.pay-list{overflow:auto;}
+.pay-list label{width:145px;}
+.pay-list span{font-size:24px;color:#474747;line-height:40px;display:inline-block;vertical-align:middle;}
+.pay-list span.orange-price{color:#FF4F27;}
+.pay-left{float:left;width:300px;}
+.pay-left label{float: left;}
+.pay-left input.form-control{width:140px;margin-top: 4px;}
+.pay-right{float:left;}
+.balance{color:#7B7B7B;}
+#item-submit{width: 191px;height: 35px; color:#fff;border-radius: 3px;background: #FF4F27;border:none;outline: none;margin:20px auto;font-size:16px;display:block;}
+/*商品详情*/
+.information{margin-top: 30px;border-top: 2px solid #0187B9;min-height: 500px;}
+.information .info-tab ul{background: #EBEBEB;}
+.information .info-tab li{width: 150px;height: 50px;line-height: 50px;font-size:18px;text-align: center;background: #fff;border-left:1px solid #DFDFDF;border-right:1px solid #DFDFDF;}
+.product-detail li{list-style-type:disc;}
+.product-detail p{margin-bottom:0;}
+.product-detail p:first{margin-top:30px;}
+/*商品详情-红包*/
+.yf_col00{color:#000000;}.yf_vt2{vertical-align:2px;}.yf_mrl5{margin-left:5px;}.yf_vt8{vertical-align:8px;}.w80{width:80px;}.mt8{margin-top:8px;}
+.yf_bag_dx{font-weight:600; margin:0 4px;}
+.yf_bag_price{color:#ff4f27; font-size:24px; vertical-align:-2px; margin-right:3px;}
+.yf_buy{padding-left:15px; font-size:14px;}
+.yf_buy_num span,.yf_buy_time span{display:inline-block;}
+.yf_buy_num input{float:left;text-align:center;}input.yf_count_num{width:50px;}input.yf_count_min,input.yf_count_max{width:30px;}
+.yf_buy_c{font-size:18px; vertical-align:7px;}.yf_buy_available{vertical-align:9px; margin-left:5px;}
+.yf_buy_days{font-size:18px; color:#ff4f27; margin-left:5px; vertical-align:-2px;}
+
+
+
+

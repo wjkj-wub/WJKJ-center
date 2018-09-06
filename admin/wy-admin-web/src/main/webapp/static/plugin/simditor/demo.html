@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="utf8" />
+<link rel="stylesheet" type="text/css" href="./css/simditor.css" />
+<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/module.min.js"></script>
+<script type="text/javascript" src="./js/hotkeys.min.js"></script>
+<script type="text/javascript" src="./js/uploader.min.js"></script>
+<script type="text/javascript" src="./js/simditor.min.js"></script>
+</head>
+<body>
+	<div class="form-group">
+		<label class="col-md-2 control-label">详情</label>
+		<div class="col-md-10">
+			<textarea id="editor-detail" name="remark" placeholder="详情" autofocus></textarea>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var $dom = $('#editor-detail');
+		// var toolbar = ['title', 'bold', 'italic', 'underline', 'strikethrough', 'color', '|', 'ol', 'ul', 'blockquote', 'code', 'table', '|', 'link', 'image', 'hr', '|', 'indent', 'outdent', 'alignment'];
+		var toolbar = [ 'title', 'bold', 'italic', 'underline', 'color', '|', 'ol', 'ul', 'blockquote', '|', 'link', 'image', 'hr' , '|', 'indent', 'outdent', 'alignment' ];
+		var editor = new Simditor({
+			textarea : $dom,
+			placeholder : '这里输入文字...',
+			toolbar : toolbar,
+			defaultImage : 'http://img.wangyuhudong.com/wy.jpg',
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+.hide {
+	display: none;
+}
+.c-title {
+	position: relative;
+	margin: 0 auto;
+	width: 318px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+.c-title:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 54px;
+	height: 2px;
+	background: #fff;
+}
+.c-title:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 20px;
+	width: 54px;
+	height: 2px;
+	background: #fff;
+}
+.first {
+	height: 650px;
+	background: url(../images/second/wyu/wyu_app_bg.jpg) no-repeat;
+	background-size: cover;
+}
+.first-content {
+	margin: 0 auto;
+	width: 1000px;
+	padding-top: 240px;
+	color: #fff;
+}
+.first-content .title {
+	font-size: 80px;
+}
+.first-content .wylogo {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: url(../images/second/wyu/wyu_app_logo.png) 50% 28px no-repeat;
+	background-size: 85px;
+}
+.first-content .content {
+	font-size: 30px;
+	font-weight: 200;
+}
+.second {
+	height: 280px;
+	color: #fff;
+	background: #f9894a;
+}
+.second-content {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.second-text {
+	padding-top: 54px;
+	width: 620px;
+	line-height: 1.8;
+	font-size: 14px;
+}
+.imgphone {
+	position: absolute;
+	bottom: 40px;
+	right: -50px;
+	width: 422px;
+	height: 691px;
+	background: url(../images/second/wyu/wyu_app_phone.png) no-repeat;
+}
+.third-content {
+	margin: 0 auto;
+	width: 1000px;
+}
+.textlist {
+	overflow: hidden;
+	padding-top: 70px;
+}
+.textitem {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 126px;
+	padding-right: 44px;
+	width: 50%;
+	height: 115px;
+	box-sizing: border-box;
+}
+.textitem .title {
+	font-size: 30px;
+}
+.textitem .info {
+	line-height: 1.8;
+	font-size: 14px;
+	color: #85879c;
+}
+.item1 {
+	background: url(../images/second/wyu/wyu_app_item1.png) no-repeat
+}
+.item2 {
+	background: url(../images/second/wyu/wyu_app_item2.png) no-repeat
+}
+.item3 {
+	background: url(../images/second/wyu/wyu_app_item3.png) no-repeat
+}
+.item4 {
+	background: url(../images/second/wyu/wyu_app_item4.png) no-repeat
+}
+.third .phones-bg {
+	margin: 0 auto;
+	width: 1000px;
+	height: 1020px;
+	background: url(../images/second/wyu/wyu_app_thirdbg.png) no-repeat;
+	background-size: contain;
+}
+.fourth {
+	background: #131524;
+}
+.fourth-content {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 115px;
+	padding-bottom: 150px;
+	width: 1000px;
+	font-size: 16px;
+	color: #999;
+	text-align: center;
+}
+
+.typelist {
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 50px;
+}
+.typeitem {
+	float: left;
+	margin-left: 18px;
+	margin-right: 18px;
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+	border-radius: 50px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.typeitem.item1 {
+	padding-left: 60px;
+	background: url(../images/second/wyu/wyu_index_typeicon5.png) 90px 50% no-repeat;
+	box-sizing: border-box;
+}
+.typeitem.item2 {
+	padding-left: 60px;
+	background: url(../images/second/wyu/wyu_index_typeicon6.png) 50px 50% no-repeat;
+	box-sizing: border-box;
+}
+.typeitem:hover {
+	background-color: #e84027;
+	border: 1px solid #e84027;
+}
+.fourth .ve-code {
+	position: absolute;
+	bottom: 260px;
+	width: 400px;
+	height: 441px;
+	background: url(../images/second/wyu/wyu_app_code.png) no-repeat;
+}
+.ve-code1 {
+	left: 70px;
+}
+.ve-code2 {
+	right: 80px;
+}
+.fifth {
+	position: relative;
+	overflow: hidden;
+	padding-top: 140px;
+}
+.fifth:before {
+	content: '';
+    position: absolute;
+    left: -50%;
+    width: 85vw;
+    height: 85vw;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #ff7f6b;
+    top: 100px;
+    z-index: -99;
+}
+.fifth:after {
+	content: '';
+    position: absolute;
+    right: -50%;
+    width: 85vw;
+    height: 85vw;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #ff7f6b;
+    top: 1600px;
+    z-index: -99;
+}
+.fifth-content {
+	margin: 0 auto;
+	width: 1000px;
+}
+.fifth .c-title {
+	color: #222;
+}
+.fifth .c-title:before {
+	background: #222;
+}
+.fifth .c-title:after {
+	background: #222;
+}
+.fifth .c-title-en {
+	text-align: center;
+	color: #999;
+}

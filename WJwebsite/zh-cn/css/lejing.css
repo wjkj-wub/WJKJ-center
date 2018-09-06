@@ -1,0 +1,374 @@
+.first{
+    width:100%;
+    height:700px;
+    background-size:100% 100%;
+    background-position: center;
+    position:relative;
+    background:url(../images/second/lej/lej_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.first img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+/*second*/
+.second {
+    text-align: center;
+    background-color: #ffda44;
+}
+.second .s-content {
+    margin: 0 auto;
+    padding-bottom: 70px;
+    width: 1000px;
+}
+.s-tit {
+    padding-top: 90px;
+}
+.s-tit .s-tit-big {
+    font-size: 50px;
+    background: url(../images/second/lej/lej_second_smalllogo.png) 0 50% no-repeat;
+}
+.s-tit .s-tit-small {
+    font-size: 18px;
+    font-weight: 200;
+}
+.s-logo {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 380px;
+    height: 110px;
+}
+.s-logo img {
+    width: 100%;
+    height: 100%;
+}
+.s-descript {
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.8;
+}
+.s-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 276px;
+    height: 62px;
+    line-height: 62px;
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background-image: -moz-linear-gradient( 90deg, rgb(242,200,28) 0%, rgb(255,218,68) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(242,200,28) 0%, rgb(255,218,68) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(242,200,28) 0%, rgb(255,218,68) 100%);
+    box-shadow: inset 0px 4px 0px 0px rgba(255, 255, 255, 0.004);
+}
+/*third*/
+.third-content {
+    // background: url(../images/second/lej/lej_third_img.png) no-repeat;
+    // background-size: contain;
+    
+}
+.t-list {
+    overflow: hidden;
+}
+.t-item {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    height: 6rem;
+    width: 33.33%;
+    box-sizing: border-box;
+    font-size: 0;
+}
+.item1 {
+    background: url(../images/second/lej/lej_third_img01.jpg) no-repeat;
+    background-size: contain;
+}
+.item2 {
+    background: url(../images/second/lej/lej_third_img02.jpg) no-repeat;
+    background-size: contain;
+}
+.item3 {
+    background: url(../images/second/lej/lej_third_img03.jpg) no-repeat;
+    background-size: contain;
+}
+.t-item:hover .t-model {
+    display: block;
+}
+.t-model {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 1rem;
+    padding-left: .66rem;
+    background: rgba(0, 0, 0, 0.41);
+}
+.t-person {
+    color: #fff;
+    font-size: .18rem;
+}
+.t-person-name {
+    font-size:  .48rem;
+    font-weight: 200;
+}
+.t-talk {
+    margin-top: 1.1rem;
+    font-size: .48rem;
+    color: #ffda44;
+    font-weight: bold;
+}
+/*fourth*/
+.fourth {
+    text-align: center;
+}
+.fourth-content {
+    margin: 0 auto;
+    width: 1000px;
+}
+.fourth-logo {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 205px;
+    height: 158px;
+    background: url(../images/second/lej/lej_fourth_logo.png) no-repeat
+}
+.fourth-txt {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.fourth-txt-b {
+    margin-top: 60px;
+    margin-bottom: 110px;
+    font-size: 24px;
+}
+.fourth-talents {
+    margin: 0 auto;
+    width: 480px;
+    height: 80px;
+    background: url(../images/second/lej/lej_fourth_talents.png) no-repeat; 
+}
+/*fifth*/
+.fifth {
+    background: #12141c;
+}
+.fifth-content {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 1200px;
+    background: url(../images/second/lej/lej_fifth_bg.png) 50% 160px no-repeat;
+    background-size: 97%;
+}
+.fifth-title {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.fifth-desc {
+    margin-top: 46px;
+    line-height: 1.8;
+    font-size: 14px;
+    color: #fff;
+}
+.fifth-bool {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #0001fe;
+    box-shadow: -2px 1px 13px 10px #070761;
+}
+.fifth-bool:hover .bool-layer {
+    display: none;
+}
+.fifth-bool .bool-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.fifth-bool.bool1 {
+    margin-top: 123px;
+    width: 273px;
+    height: 273px;
+    background: url(../images/second/lej/lej_fifth_bool1.jpg) 50% 50% no-repeat;
+}
+.fifth-bool.bool2 {
+    margin-top: 94px;
+    margin-left: 56px;
+    width: 302px;
+    height: 302px;
+    background: url(../images/second/lej/lej_fifth_bool2.jpg) 50% 50% no-repeat;
+}
+.fifth-bool.bool3 {
+    margin-top: -163px;
+    margin-left: 434px;
+    width: 280px;
+    height: 280px;
+    background: url(../images/second/lej/lej_fifth_bool3.jpg) 50% 50% no-repeat;
+}
+.fifth-bool.bool4 {
+    margin-top: -530px;
+    margin-left: 730px;
+    width: 250px;
+    height: 250px;
+    background: url(../images/second/lej/lej_fifth_bool4.jpg) 50% 50% no-repeat;
+}
+.fifth-bool.bool5 {
+    margin-top: -570px;
+    margin-left: 720px;
+    width: 224px;
+    height: 224px;
+    background: url(../images/second/lej/lej_fifth_bool5.jpg) 50% 50% no-repeat;
+}
+.fifth-bool:hover {
+    box-shadow: none;
+    border: 2px solid #00fffd;
+}
+.fifth-info {
+    position: absolute;
+    top: 237px;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffe850;
+}
+.fifth-info .info-main {
+    position: relative;
+    font-size: 30px;
+}
+.fifth-info .info-main:before {
+    content: "";
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    width: 34px;
+    height: 5px;
+    border-radius: 10px;
+    background: #ffe850;
+}
+.fifth-info .info-main:after {
+    content: "";
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    width: 34px;
+    height: 5px;
+    border-radius: 10px;
+    background: #ffe850;
+}
+/*sixth*/
+.sixth {
+    background: #ffda44;
+}
+.six-content {
+    margin: 0 auto;
+    width: 1000px;
+}
+.six-title {
+    padding-top: 80px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: #222;
+}
+.six-des {
+    margin-bottom: 80px;
+    line-height: 1.8;
+}
+.six-sub {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+}
+.six-sub:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 35px;
+    height: 4px;
+    top: 15px;
+    background: #222;
+    border-radius: 10px;
+}
+.six-sub:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 4px;
+    top: 15px;
+    background: #222;
+    border-radius: 10px;
+}
+.six-scene {
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+.six-scene-left {
+    float: left;
+    width: 500px;
+    height: 350px;
+    background: url(../images/second/lej/lej_sixth_scene.png) 110px no-repeat;
+}
+.six-scene-right {
+    float: left;
+    width: 500px;
+}
+.sixth .s-para {
+    margin-bottom: 36px;
+}
+.sixth .s-para-tit {font-weight: bold;}
+.sixth .s-para-tit span {
+    margin-right: 14px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.sixth .s-para-navi {
+    padding-left: 38px;
+}
+.six-act .s-list {
+    overflow: hidden;
+    padding-bottom: 130px;
+}
+.six-act .s-item {
+    position: relative;
+    float: left;
+    width: 333px;
+    font-size: 0;
+    cursor: default;
+}
+.six-act .s-item .s-item-layer {
+    display: none;
+}
+.six-act .s-item:hover .s-item-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding-top: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
