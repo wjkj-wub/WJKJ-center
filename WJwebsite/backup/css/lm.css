@@ -1,0 +1,350 @@
+.model-title {
+    font-size: 50px;
+    color: #161825;
+}
+.model-exp {
+    font-size: 18px;
+    color: #999;
+}
+.first{
+    width:100%;
+    height:700px;
+    background-size:100% 100%;
+    background-position: center;
+    position:relative;
+    background:url(../images/second/lm/topBg1.jpg) no-repeat;
+    background-size: cover;
+}
+.first img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.second{
+    width:100%;
+    /* height: 1380px; */
+    background:#fff;
+    padding-bottom:170px;
+}
+.second_content1{
+    width:1000px;
+    height: 300px;
+    margin:0 auto;
+    text-align: center;
+    padding-top:80px;
+}
+.second_content1 p{
+    margin-top:60px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height:30px;
+}
+.second_content2{
+    width:1000px;
+    /* height: 1000px; */
+    margin:0 auto;
+    text-align: center;
+    padding-top:80px;
+
+}
+ .project_bg{
+    margin:0 auto;
+    width:280px;
+    height:80px;
+}
+.project_bg div{
+    width:320px;
+    height: 40px;line-height:40px;
+    text-align: center;
+    MARGIN-BOTTOM:12PX;
+}
+.project_bg div .left{
+    float: left;
+    display: inline-block;
+    width:40px;
+    height: 6px;
+    margin-top:17px;
+    background: #000;
+    border-radius: 3px;
+}
+ .project_bg div .center{
+    float: left;
+    width:240px;
+    font-size:36px;
+}
+ .project_bg div .right{
+    float: left;
+    display: inline-block;
+    width:40px;
+    height: 6px;
+    margin-top:17px;
+    background: #000;
+    border-radius: 3px;
+}
+.second_content2  .people_less{
+    width:1000px;
+    height: 570px;
+    /* background:red; */
+    padding-top:60px;
+
+}
+ .people_title{
+    text-align: center;
+    color: rgb(235, 94, 1);
+    font-size: 24px;
+    height:60px;
+}
+.second_content2  .people_less .people_text{
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height:30px;
+} 
+.people_less ul{
+    width:1000px;
+    height: 300px;    
+    margin-top:34px;
+}
+.people_less ul li{
+    float: left;
+    margin-right:5px;
+    width:330px;
+    height:130px;
+    position: relative;
+}
+.people_less ul li .people_yellow{
+    position: absolute;
+    left:0;top:0;
+    width:330px;
+    height: 130px;
+    background:rgba(235, 94, 1,0.8);
+    color:#fff;
+    display:none;
+}
+.people_less ul li .people_yellow .title{   
+    font-size: 20px;
+    font-weight: 800;
+     margin-bottom:8px;
+     margin-top:35px;
+}
+  
+.people_less ul li p{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 800;
+    line-height:130px;
+}
+.people_less ul li:nth-child(1){
+    background:url(../images/second/lm/img1.png) no-repeat;
+   
+}
+.people_less ul li:nth-child(2){
+    background:url(../images/second/lm/img2.png) no-repeat;
+   
+}
+.people_less ul li:nth-child(3){
+    background:url(../images/second/lm/img3.png) no-repeat;
+    margin-right:0;
+}
+.people_less ul li:nth-child(4){
+    background:url(../images/second/lm/img4.png) no-repeat;
+    margin-top:40px;
+}
+.people_less ul li:nth-child(5){
+    background:url(../images/second/lm/img5.png) no-repeat;
+    margin-top:40px;
+}
+.people_less ul li:nth-child(6){
+    background:url(../images/second/lm/img6.png) no-repeat;
+    margin-right:0;
+    margin-top:40px;
+}
+.second_content2  .group_play{
+    width:1000px;
+    height: 270px;
+    padding-top:20px;
+    line-height:30px;
+    /* background:red; */
+
+}
+.second_content2  .group_play .group_text1{
+    font-size:20px;
+}
+.project_inf{
+    height:140px;
+    margin-top:100px;
+}
+.second_content3{
+    width:100%;
+    height:33.33vw;  
+    margin-bottom:100px;
+}
+.second_content3 .yellow_bg{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(235, 94, 0,0.8);   
+}
+.second_content3 li{
+    float:left;
+    width:33.33%;
+    height: 33.33vw;
+    text-align: center;
+    color:#fff;
+   position: relative;
+}
+.second_content3 li:nth-child(1){
+    background:url(../images/second/lm/inf1.png) no-repeat;
+    background-size:100% 100%;
+}
+.second_content3 li:nth-child(2){
+    background:url(../images/second/lm/inf2.png) no-repeat;
+    background-size:100% 100%;
+}
+.second_content3 li:nth-child(3){
+    background:url(../images/second/lm/inf3.png) no-repeat;
+    background-size:100% 100%;
+}
+
+
+.second_content3 li h2{
+    color:#fff;
+    font-weight: blod;
+    font-size: 48px;
+    margin-top:6vw;
+}
+.second_content3 li .div1 {
+    height:30px;
+    font-size:24px;
+}
+.second_content3 li .div1 .left{
+    display:inline-block;
+    width:28px;
+    height: 2px;
+    background:#fff;
+    vertical-align: middle;
+}
+.second_content3 li .div1 .center{
+    display:inline-block;
+
+    width:100px;
+    height:30px; 
+   
+}
+.second_content3 li .div1 .right{
+    display:inline-block;
+    vertical-align: middle;
+    width:28px;
+    height: 2px;
+    background:#fff; 
+}
+.second_content3 li p{
+    width:27.33vw;
+    margin-left:3vw;
+    margin-top:2vw;;
+}
+.second_content3 li a{
+    width:6.8vw;
+    height:2vw;
+    display:block;
+    text-align: center;
+    line-height:2vw;
+    border-radius: 1vw;
+    border:1px solid #fff;
+    left:13.265vw;
+    position: absolute;
+    bottom:5.4vw;
+    text-decoration: none;
+    color:#fff;
+}
+.second_content3 li .aa{
+    color: rgb(235, 96, 4);
+    background:#fff;
+}
+.lb{
+    width:1000px;
+    height: 600px;
+    margin-top:80px;
+    position: relative;;
+    overflow:hidden;
+}
+.lunbo{
+   width:100%;;
+   height:100%;;
+    overflow:hidden;
+    position:absolute;
+    left:-100%;
+  
+}
+.prev{
+    position: absolute;
+    left:-78px;
+    top:484px;
+    width:48px;
+    height: 92px;
+    background:url(../images/second/lm/next.png) no-repeat;
+    border:none;
+    transform:rotate(180deg)
+}
+.next{
+    position: absolute;
+    right:-78px;
+    top:484px;
+    width:48px;
+    height: 92px;
+    background:url(../images/second/lm/next.png) no-repeat;
+    border:none;
+}
+.photo_text{
+    height:80px;
+    line-height:70px;
+    color:#000;
+    font-size:14px;
+}
+.photo1{
+    width:1000px;
+    height:120px;
+}
+.photo1 li{
+    width:190px;
+    height:120px;
+    margin-right:10px;
+    float: left;
+}
+.photo1 .border{
+    border:2px solid #eb5e00;
+    width:188px;
+    height:118px;
+}
+.photo1 li:nth-child(1){
+    background:url(../images/second/lm/teching1.png) no-repeat;
+    background-size:100% 100%;
+}
+.photo1 li:nth-child(2){
+    background:url(../images/second/lm/teching2.jpg) no-repeat;
+    background-size:100% 100%;
+}
+.photo1 li:nth-child(3){
+    background:url(../images/second/lm/teching3.jpg) no-repeat;
+    background-size:100% 100%;
+}
+.photo1 li:nth-child(4){
+    background:url(../images/second/lm/teching4.jpg) no-repeat;
+    background-size:100% 100%;
+}
+.photo1 li:nth-child(5){
+    background:url(../images/second/lm/teching5.jpg) no-repeat;
+    background-size:100% 100%;
+}
+.third{
+    width:100%;
+    height:660px;
+    padding-top:120px;
+    text-align: center;
+    background:url(../images/second/lm/topBg2.png) no-repeat;
+}
+.com_logo{
+    margin-top:66px;
+}

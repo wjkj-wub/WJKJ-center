@@ -21,7 +21,7 @@ ssh-keygen -t rsa -C "email@email.com"
 git pull origin master --allow-unrelated-histories
 
 ------推送本地库至线上库
-git push origin master 
+git push origin master
 
 -------------------git 分支学习
 
