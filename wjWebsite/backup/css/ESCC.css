@@ -1,0 +1,195 @@
+.title_ch {
+    position: relative;
+    margin: 0 auto;
+    width: 260px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+.title_ch:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 38px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #333;
+}
+.title_ch:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 38px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #333;
+}
+.first{
+    width:100%;
+    height:700px;
+    background-size:100% 100%;
+    background-position: center;
+    position:relative;
+    background:url(../images/second/ESCC/ESCC_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.first img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.second {
+    background-color: #fff;
+}
+.s-content {
+    margin: 0 auto;
+    padding-top: 78px;
+    padding-bottom: 36px;
+    width: 1000px;
+}
+.s-logo {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.s-descript {
+    line-height: 2;
+    color: #666;
+}
+.s-btn {
+    margin: 0 auto;
+    margin-top: 29px;
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #b28850;
+    border-radius: 50px;
+    border: 1px solid #b28850;
+}
+.s-info {
+    padding-top: 10px;
+    line-height: 2;
+    color: #666;
+    text-align: center;
+}
+.s-info .s-t {
+    margin: 0 auto;
+    padding-top: 10px;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    writing-mode: tb-rl;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.s-box {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.s-box img {
+    margin-top: 80px;
+}
+.s-box .title_ch {
+    width: 500px;
+}
+.third {
+}
+.third-content {
+    padding-top: 62px;
+    height: 657px;
+    text-align: center;
+    background: url(../images/second/ESCC/ESCC_third_bg.png) no-repeat;
+    background-size: cover;
+}
+.third-content img {
+    margin-top: -46px;
+    width: 1000px;
+}
+.third-box {
+    background-color: #b28850;
+}
+.third-text {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1000px;
+    height: 100px;
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 200;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.fourth {
+    padding-top: 78px;
+    padding-bottom: 90px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.fourth .title_ch {
+    width: 334px;
+}
+.fourth img {
+    margin-top: 67px;
+}
+.fifth {
+    background-color: #fff;
+}
+.fifth-content {
+    padding-top: 80px;
+}
+.fifth .title_ch {
+    margin-bottom: 70px;
+    width: 264px;
+}
+.logo-box {
+    padding-top: 8%;
+    height: 525px;
+    text-align: center;
+    background: #000 url(../images/second/ESCC/ESCC_fifth_logo_bg.png) 50% 77% / cover no-repeat;
+    box-sizing: border-box;
+}
+.logo-box img {
+    margin: 0 auto;
+}
+.site-imgitem:hover {
+    box-sizing: border-box;
+    border: 2px solid #ffc62b;
+    box-sizing: border-box;
+}
+.site-imgitem {
+    position: relative;
+    float: left;
+    width: 20%;
+    overflow: hidden;
+    font-size: 0;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+.site-imgitem img {
+    width: 106%;
+}
+.site-imgitem:hover .site-dark {
+    display: none;
+}
+.site-dark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.49);
+}
+.bottombox {
+    height: 143px;
+    background: url(../images/second/ESCC/ESCC_fifth_bottom_bg.png) no-repeat;
+    background-size: cover;
+}

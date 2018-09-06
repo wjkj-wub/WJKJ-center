@@ -1,0 +1,318 @@
+.model-title {
+    font-size: 50px;
+    color: #161825;
+}
+.model-exp {
+    font-size: 18px;
+    color: #999;
+}
+.first{
+    width:100%;
+    height:700px;
+    background-size:100% 100%;
+    background-position: center;
+    position:relative;
+    background:url(../images/second/lemon/lemon_bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.first img{
+    /* position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    float:left; */
+    margin-top:160px;
+    margin-bottom:50px;
+}
+.first h2{
+    color:#ffffff;
+    font-size:48px;
+    margin-bottom:2px;
+}
+.first div .left{
+    display:inline-block;
+    width:28px;
+    height: 2px;
+    background:#fff;
+    vertical-align: middle;
+    margin-top:-7px;
+}
+.first div .center{
+    display:inline-block;
+    width:120px;
+    height:40px; 
+   text-align: center;
+   line-height:40px;
+   color:#fff;
+   font-size: 24px;
+}
+.first div .right{
+    display:inline-block;
+    vertical-align: middle;
+    width:28px;
+    height: 2px;
+    background:#fff; 
+    margin-top:-7px;
+}
+.s-content {
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 110px;
+    width: 1000px;
+    text-align: center;
+}
+
+.second-advanlist {
+    margin-top: 20px;
+}
+.second-advanitem {
+    display: table;
+    margin-top: 60px;
+    min-height: 80px;
+    text-align: left;
+}
+.second-advanitem .advan-icon {
+    display: table-cell;
+    padding-right: 20px;
+    width: 80px;
+    height: 80px;
+}
+.second-advanitem .advan-icon.icon1 {
+    background: url(../images/second/lemon/lemon_second_icon1.png) 0 50% no-repeat;
+}
+.second-advanitem .advan-icon.icon2 {
+    background: url(../images/second/lemon/lemon_second_icon2.png) 0 50% no-repeat;
+}
+.second-advanitem .advan-icon.icon3 {
+    background: url(../images/second/lemon/lemon_second_icon3.png) 0 50% no-repeat;
+}
+.second-advanitem .advan-info {
+    display: table-cell;
+    vertical-align: middle;
+}
+.second-advanitem .info-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.second-advanitem .info-content {
+    line-height: 1.8;
+}
+.third {
+    background: url(../images/second/lemon/lemon_third_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.third-content {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.video-outer {
+    position: relative;
+    margin: 0 auto;
+    width: 1056px;
+    height: 616px;
+    background: url(../images/second/lemon/lemon_third_videobox.png) no-repeat;
+}
+.video-inner {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+}
+.fourth .fourth-content {
+    padding-top: 120px;
+    text-align: center;
+}
+.fourth .f-imglist {
+    overflow: hidden;
+    padding-top: 30px;
+    width: 100%;
+}
+.fourth .f-imgitem {
+    position: relative;
+    float: left;
+    width: 16.666%;
+    font-size: 0;
+}
+.fourth .f-img-layer {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 40%;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    background: rgba(235, 94, 1, 0.8);
+}
+.fourth .layer-title {
+    font-size: 30px;
+    line-height: 2.8;
+}
+.fourth .layer-info {
+    text-align: left;
+}
+.fourth .f-imgitem:hover .f-img-layer {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+.fourth .f-imglist img {
+    width: 100%;
+}
+.fifth-content {
+    padding-top: 106px;
+    text-align: center;
+    background: #fff;
+}
+.f-boollist {
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 1000px;
+} 
+.f-boollist .f-boolitem {
+    float: left;
+    width: 240px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.f-boollist .bool1 {
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background: url(../images/second/lemon/lemon_fifth_bg1.png) no-repeat;
+    background-size: contain;
+}
+.f-boollist .bool2 {
+    margin-right: 13px;
+    margin-top: -20px;
+    padding-top: 40px;
+    background: url(../images/second/lemon/lemon_fifth_bg2.png) no-repeat;
+    background-size: contain;
+}
+.f-boollist .bool3 {
+    padding-top: 20px;
+    background: url(../images/second/lemon/lemon_fifth_bg3.png) no-repeat;
+    background-size: initial;
+}
+.f-boollist .bool4 {
+    padding-top: 20px;
+    background: url(../images/second/lemon/lemon_fifth_bg4.png) no-repeat;
+    background-size: contain;
+}
+.f-boollist .b-mark {
+    font-size: 21px;
+    color: #EB5E01;
+}
+.f-boollist .b-markbig {
+    font-size: 36px;
+    color: #EB5E01;
+}
+.f-boollist .b-info {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 14px;
+}
+.fifth-bottom {
+    font-size: 0;
+    margin-top:50px
+}
+.fifth-bottom img {
+    max-width: 100%;
+}
+.six-banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    background: #EB5E01;
+}
+.six-imglist .six-imgitem {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    font-size: 0;
+}
+.six-imglist .six-imgitem img {
+    width: 100%;
+}
+.six-imglist .imgiten-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+}
+.six-imgitem .imgitem-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.31);
+    z-index: 99;
+}
+.six-imgitem:hover .imgitem-layer {
+    display: none;
+}
+.six-about {
+    padding-top: 60px;
+    padding-bottom: 110px;
+    background: #EB5E01;
+    color: #fff;
+}
+.six-about-box {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+.six-about-box .six-about-info {
+    position: relative;
+}
+.ui-1 {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 63px;
+    background: url(../images/second/lemon/lemon_shape_left.png) no-repeat;
+}
+.ui-2 {
+    position: absolute;
+    top: 14px;
+    right: 80px;
+    width: 312px;
+    height: 63px;
+    background: url(../images/second/lemon/lemon_shape_right.png) no-repeat;
+}
+.six-about-box .info-2 {
+    margin-top: 90px;
+}
+.six-about-box .info-title {
+    font-size: 24px;
+}
+.six-about-box .info-desc {
+    font-size: 18px;
+}
+.six-about-box .info-2 .info-desc {
+    line-height: 2;
+}
+.six-about-box .desc-1 {
+    margin-top: 70px;
+    line-height: 1.9;
+    text-align: left;
+}
+.six-about-box .info-strong {
+    font-size: 30px;
+    font-weight: 300;
+}
