@@ -1,0 +1,247 @@
+.title_ch {
+    position: relative;
+    margin: 0 auto;
+    width: 314px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+.title_ch:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+}
+.title_ch:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+}
+.title_en {
+    color: #999;
+    font-size: 16px;
+    font-weight: 200;
+}
+.first{
+    width:100%;
+    height:700px;   
+    position:relative;
+    background:url(../images/second/haimiou_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.first img{
+    position:absolute;
+     top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.second{
+    width:100%;
+    background:#fff;
+}
+.second_content{
+    width:1000px;
+    height:412px;
+    margin:0 auto;
+}
+.second_content img{
+    float:left;
+    margin-left:315px;
+    margin-top:70px;
+}
+.second_content p{
+    float:left;
+    margin-top:35px;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(102, 102, 102);
+}
+.second_content a{
+    display:block;
+    float:left;
+    width:120px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    margin-top:20px;
+    margin-left:440px;
+    border:1px solid #000;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    cursor: pointer;
+    color: initial;
+}
+.third_content {
+    text-align: center;
+}
+.third .picslider {
+    position: relative;
+}
+.third .picslider-inner {
+    width: 100%;
+    overflow: hidden;
+}
+.third .sliderlist {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+.third .slideritem {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.third .slideritem img {
+    float: left;
+    width: 25%;
+}
+.third .pic_handle {
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    right: 3px;
+    margin-top: -45px;
+}
+.third .pic_handle .h_space {
+    width: 60px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+.third .pic_handle .h_prev {
+    float: left;
+    background-image: url(../images/second/haimio/haimio_icon_prev.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.third .pic_handle .h_next {
+    float: right;
+    background-image: url(../images/second/haimio/haimio_icon_next.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.third .pic_dot {
+    position: absolute;
+    left: 50%;
+    bottom: 13px;
+    margin-left: -95px;
+}
+.third .pic_dot .dot {
+    float: left;
+    margin-left: 30px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c5c5c5;
+}
+.third .pic_dot .dot.active {
+    background: #e84027;
+}
+.content_txt {
+    margin-top: 46px;
+    background: #fff;
+}
+.third .content_title {
+    padding-top: 64px;
+}
+.txtlist {
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    width: 1000px;
+}
+.txtitem {
+    float: left;
+    margin-top: 43px;
+    width: 500px;
+}
+.txtitem_title {
+    color: #222;
+    font-size: 24px;
+}
+.txtitem_info {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.fourth .banner {
+    padding-top: 200px;
+    padding-bottom: 210px;
+    text-align: center;
+    background: url(../images/second/haimio/haimio_ground_bg.png) no-repeat;
+    background-size: cover;
+}
+.banner_title {
+    color: #f1f1f1;
+    font-size: 60px;
+}
+.banner_title_en {
+    color: #b1b1b1;
+    font-size: 18px;
+}
+.fourth {
+    background-color: #fff;
+}
+.fourth .infolist {
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 130px;
+    width: 1000px;
+}
+.fourth .infoitem {
+    float: left;
+    margin-top: 60px;
+    width: 500px
+}
+.infoitem_icon {
+    float: left;
+}
+.infoitem_text {
+    float: left;
+    margin-left: 20px;
+}
+.infoitem_text .text_title {
+    font-size: 30px;
+    color: #222;
+}
+.infoitem_text .text_info {
+    font-size: 14px;
+    color: #666;
+}
+.fifth {
+    text-align: center;
+}
+.fifth .content_title {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.fifth .content_box {
+    width: 100%;
+    background: #e14002;
+}
+.fifth .content_box img {
+    float: left;
+    width: 25%;
+}
+.fifth .content_box .activity-name {
+    float: left;
+    padding-top: 6.5%;
+    width: 25%;
+    height: 90px;
+    background: #e14002;
+    font-size: 22px;
+    color: #fff;
+}

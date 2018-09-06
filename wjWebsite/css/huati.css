@@ -1,0 +1,81 @@
+.first{
+    width:100%;
+    height:700px;
+    background-size:100% 100%;
+    background-position: center;
+    position:relative;
+    background:url(../images/second/huati/huati_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.first img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.second {
+	background-color: #fff;
+	color: #222;
+}
+.s-content {
+	margin: 0 auto;
+	width: 1000px;
+}
+.s-logobox {
+	padding-left: 44px;
+	padding-right: 44px;
+}
+.logolist {
+	padding-top: 93px;
+}
+.logoitem {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.s-title {
+	padding-top: 115px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 36px;
+}
+.s-descript {
+	line-height: 2;
+	font-size: 14px;
+}
+.s-plan {
+	margin-top: 115px;
+	text-align: center;
+}
+.s-picbox {
+	margin-top: 110px;
+}
+.s-picitem {
+	position: relative;
+	float: left;
+	width: 33.33%;
+	font-size: 0;
+	cursor: pointer;
+}
+.s-picitem img {
+	width: 100%;
+}
+.s-picitem .item-layer {
+	display: none;
+}
+.s-picitem:hover .item-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding-top: 25%;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99;
+}

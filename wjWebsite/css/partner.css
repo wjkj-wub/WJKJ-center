@@ -1,0 +1,99 @@
+.c-title {
+	position: relative;
+	margin: 0 auto;
+	width: 320px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+.c-title:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 52px;
+	height: 2px;
+	background: #fff;
+}
+.c-title:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 20px;
+	width: 52px;
+	height: 2px;
+	background: #fff;
+}
+.first {
+	padding-bottom: 160px;
+	background-color: #13151c;
+}
+.first-content {
+	margin: 0 auto;
+	padding-top: 200px;
+	width: 1000px;
+}
+.f-top {
+	overflow: hidden;
+	width: 886px;
+	height: 142px;
+	text-align: center;
+}
+.f-box .c-title {
+	margin-bottom: 42px;
+}
+.shichang {
+	margin-top: 90px;
+}
+.haimio {
+	margin-top: 150px;
+}
+.lejing {
+	margin-top: 200px;
+}
+.ruizhi {
+	margin-top: 140px;
+}
+.lemon {
+	margin-top: 120px;
+}
+.yuer {
+	margin-top: 135px;
+}
+.yeyou {
+	margin-top: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

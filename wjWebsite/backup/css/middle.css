@@ -1,0 +1,112 @@
+   .logo{
+	   	width:140px;
+	   	height:47px;
+	   	position:fixed;
+		left:30px;
+		top:30px;
+		z-index:14;
+		background:url(../images/common/logo.png) no-repeat;
+		background-origin:content;                /*从content区域开始显示背景*/  
+	    background-position:50% 50%;              /*图片上下左右居中*/  
+	    background-size:contain;           
+   }
+   .nav_more{
+		width:46px;
+		height:46px;
+		position:fixed;
+		right:30px;
+		top:30px;
+		z-index:14;
+		cursor: pointer;
+		background-origin:content;                /*从content区域开始显示背景*/  
+	    background-position:50% 50%;              /*图片上下左右居中*/  
+	    background-size:contain; 
+	}
+	
+	
+	.nav{
+		width:830px;
+		height:46px;
+		color:#fff;
+		background-color: rgb(32, 34, 46);
+		position:fixed;
+		right:-880px;
+		// right: 90px;
+		top:30px;
+		z-index:13;
+	}
+	.nav li{
+		float:left;
+		height:46px;
+		line-height:46px;
+		width:112px;
+		text-align: center;
+		font-size:16px;
+	}
+	
+   .goDown{
+	display:none;
+	}
+	// .left_nav{
+	// 	display:none;  
+	// }
+	.projects li img {
+	    margin-top:12%;
+	    width:8vh;
+	    height:8vh;
+	}
+    .projects li p{
+    	margin-top:2%;
+    	margin-bottom:8%;
+    }
+	.s_right{
+		margin-top:115px;
+	}
+	.service{
+		width:60%;
+		height:700px;
+		position: absolute;
+	    top:50%;
+	    left: 50%;
+	    transform:translate(-50%, -50%);
+	    -webkit-transform:translate(-50%, -50%);
+	    -ms-transform:translate(-50%, -50%);
+		z-index:12;	
+	}
+	.c_top{
+		width:884px;
+		height:140px;
+		margin-top:40px;
+		margin:0 auto;	
+		background:url(../images/index/Cooperative.png) no-repeat;
+	}
+	.cooperative{
+		width:60%;
+		height:600px;
+		position: absolute;
+	    top:60%;
+	    left: 50%;
+	    transform:translate(-50%, -50%);
+	    -webkit-transform:translate(-50%, -50%);
+	    -ms-transform:translate(-50%, -50%);
+		z-index:12;	
+	}
+	.partnerImg{
+		margin-top: 40px;
+	}
+	.hh{		
+		width:60%;
+		height:78px;
+		margin-left:20%;
+		margin-top:0;margin-bottom:0;
+		background:url(../images/index/hh.png) center no-repeat;
+		background-origin:content;                /*从content区域开始显示背景*/  
+	    background-position:50% 50%;              /*图片上下左右居中*/  
+	    background-size:contain;                  /*保持图像本身的宽高比例，将图片缩放到宽度或高度正好适应定义背景的区域*/    
+	}
+	.companyName{
+		margin-top:20px;
+	}
+	.group{
+		margin-top:90px;
+	}
