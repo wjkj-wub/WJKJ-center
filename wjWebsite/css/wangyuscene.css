@@ -1,0 +1,32 @@
+.first {
+	height: 540px;
+	background: url(../images/second/wyu/wyu_scene_bg.jpg) no-repeat;
+}
+.first-content {
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	color: #fff;
+}
+.first-content .title {
+	padding-top: 200px;
+	text-align: center;
+	font-size: 80px;
+}
+.first-content .info {
+	margin-top: 15px;
+	font-size: 32px;
+	font-weight: 200;
+}
+.second {
+	background: #fbfbfb;
+}
+.second-content {
+	margin: 0 auto;
+	width: 1000px;
+	font-size: 0;
+}
+.second-content img {
+	width: 100%;
+
+}

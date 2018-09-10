@@ -1,0 +1,202 @@
+.index1 {
+	background: url(../images/second/haimiou_bg.jpg) no-repeat;
+	background-size: cover;
+}
+.index1-bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.index2 {
+	overflow: hidden;
+}
+.index2 .bg {
+	text-align: center;
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50vh;
+}
+.index2 .bg img {
+	width: 100%;
+    height: 100%;
+}
+.index2 .bg .layer {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+.index2 .bg:hover .layer {
+	display: block;
+}
+.index2 .bg .icon {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	line-height: 1.9;
+	font-size: 40px;
+	font-weight: 200;
+	color: #fff;
+	margin: 0 auto;
+}
+.icon1 {
+	padding-left: 70px;
+	height: 76px;
+	background: url(../images/second/wyu/wyu_index_icon1.png) no-repeat;
+	background-size: contain;
+}
+.icon2 {
+	padding-left: 96px;
+	height: 63px;
+	background: url(../images/second/wyu/wyu_index_icon2.png) no-repeat;
+	background-size: contain;
+}
+.icon3 {
+	padding-left: 96px;
+	height: 70px;
+	background: url(../images/second/wyu/wyu_index_icon3.png) no-repeat;
+	background-size: contain;
+}
+.icon4 {
+	padding-left: 96px;
+	height: 63px;
+	background: url(../images/second/wyu/wyu_index_icon4.png) no-repeat;
+	background-size: contain;
+}
+.index2 .bg .icon .arrow {
+	display: inline-block;
+	margin-left: 40px;
+	width: 19px;
+	height: 10px;
+	background: url(../images/second/wyu/wyu_index_arrow.png) no-repeat;
+	vertical-align: middle;
+}
+.index3-bg {
+	float: left;
+	width: 35%;
+	height: 100vh;
+	background: url(../images/second/wyu/bg.jpg) no-repeat;
+	background-size: cover;
+}
+.index3-content {
+	float: left;
+	/* padding-top: 10%; */
+	width: 65%;
+	height: 100vh;
+	text-align: center;
+	background-color: #fff;
+}
+.index3 .tip {
+	margin-top: 13%;
+	font-size: 24px;
+	color: #999;
+}
+.download {
+	margin-top: 20px;
+}
+.download .type {
+	position: relative;
+	left: 50%;
+	margin-left: -120px;
+	width: 240px;
+	text-align: center;
+	font-size: 24px;
+	color: #222;
+}
+.download .type:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 16px;
+	width: 54px;
+	height: 2px;
+	background-color: #222;
+}
+.download .type:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 16px;
+	width: 54px;
+	height: 2px;
+	background-color: #222;
+}
+.download .type-en {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 200;
+	font-size: 16px;
+	color: #999;
+}
+.typelist {
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 10px;
+}
+.typeitem {
+	display: inline-block;
+	float: left;
+	margin-left: 18px;
+	margin-right: 18px;
+	padding-left: 60px;
+	width: 320px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 36px;
+	color: #333;
+	text-align: center;
+	border-radius: 50px;
+	border: 1px solid #131524;
+	cursor: pointer;
+}
+
+.typeitem.item1 {
+	background-image: url(../images/second/wyu/wyu_index_typeicon1.png);
+	background-position: 90px 50%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.typeitem.item2 {
+	background: url(../images/second/wyu/wyu_index_typeicon2.png);
+	background-position: 50px 50%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.typeitem.item3 {
+	background: url(../images/second/wyu/wyu_index_typeicon3.png);
+	background-position: 90px 50%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.typeitem.item4 {
+	background: url(../images/second/wyu/wyu_index_typeicon4.png);
+	background-position: 80px 50%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.typetips {
+	padding-top: 110px;
+	width: 340px;
+	text-align: center;
+}
+@media screen and (min-width: 1366px) {
+   .typeitem {
+   		padding-left: 90px; 
+		width: 260px;
+		height: 80px;
+		line-height: 80px;
+		background-size: 14%;
+	}
+	.typetips {
+		padding-top: 90px;
+		width: 280px;
+		text-align: center;
+	}
+}

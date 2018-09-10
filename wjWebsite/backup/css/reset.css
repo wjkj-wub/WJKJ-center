@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/*此样式表只放浏览器重置样式，公共样式和字体图标这些非自写样式
+海选赛后台 2017.4.10*/
+
+
+/*-------------------------------------reset------------------------------------------------*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+fieldset,
+legend,
+button,
+span,
+img,
+menu {
+    margin: 0;
+    padding: 0;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+form,input,textarea{
+    margin: 0;
+    padding: 0;
+}
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0;
+}
+
+i,
+cite,
+var,
+address,
+dfn {
+    font-style: normal;
+}
+
+[hidefocus],
+summary {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    font-size: 100%;
+}
+
+sup,
+sub {
+    font-size: 83%;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: inherit;
+}
+
+q:before,
+q:after {
+    content: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+label,
+summary {
+    cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: bold;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+    font: 12px/1.14 '微软雅黑', Helvetica, Arial, sans-serif, 'Microsoft YaHei';
+    color: #333;
+    outline: 0;
+}
+
+body {
+    font: 14px/1.5 '微软雅黑', Helvetica, Arial, sans-serif, 'Microsoft YaHei';
+    background: #f1f1f1;
+    /*letter-spacing:1px;*/
+}
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    min-width: 1200px;
+    overflow-x: auto;
+}
+
+input {
+    font: 14px/1.5 '微软雅黑', Helvetica, Arial, sans-serif, 'Microsoft YaHei';
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+    text-indent: 10px;
+}
+
+select {
+    font-size: 14px;
+    border: 1px solid #c7c7c7;
+    text-indent: 12px;
+    height: 34px;
+    width: 200px;
+    background-color: #fff;
+ }
+

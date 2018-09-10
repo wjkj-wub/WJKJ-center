@@ -1,0 +1,74 @@
+.first {
+	height: 540px;
+	background: url(../images/second/wyu/wyu_app_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.first-content {
+	margin: 0 auto;
+	width: 1000px;
+	color: #fff;
+}
+.first-content .title {
+	padding-top: 125px;
+	text-align: center;
+	font-size: 80px;
+}
+.second {
+	height: 290px;
+	background-color: #f9894a;
+}
+.second-content {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 146px;
+	padding-left: 33px;
+	padding-right: 33px;
+	width: 1000px;
+	line-height: 1.9;
+	font-size: 14px;
+	color: #fff;
+	box-sizing: border-box;
+}
+.second .imgcomp {
+	position: absolute;
+	bottom: 55px;
+	left: 50%;
+	margin-left: -280px;
+	width: 590px;
+	height: 402px;
+	background: url(../images/second/wyu/wyu_pc_computer.png) no-repeat;
+}
+.third {
+	background: #fff;
+}
+.third-content {
+	margin: 0 auto;
+	width: 1000px;
+}
+.menu {
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 160px;
+	width: 1000px;
+}
+.menuitem {
+	float: left;
+	padding-top: 130px;
+	width: 25%;
+	text-align: center;
+}
+.item1 {
+	background: url(../images/second/wyu/wyu_pc_icon1.png) 50% 0 no-repeat;
+}
+.item2 {
+	background: url(../images/second/wyu/wyu_pc_icon2.png) 50% 0 no-repeat;
+}
+.item3 {
+	background: url(../images/second/wyu/wyu_pc_icon3.png) 50% 0 no-repeat;
+}
+.item4 {
+	background: url(../images/second/wyu/wyu_pc_icon4.png) 50% 0 no-repeat;
+}
+.third .imgbox {
+	font-size: 0;
+}

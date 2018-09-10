@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>网竞资讯</title>
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/INFO.css">  
+	</head>
+	<body>
+		<div class="header">
+			<a class="info-logo" href="./index.html"></a>
+			<ul class="menu">
+				<li class="menu-item"><a href="./index.html">首页</a></li>
+				<li id="j_show" class="menu-item"><a>项目<img class="downUp" src="./images/common/down.png"></a></li>
+				<li class="menu-item"><a href="./aboutwj.html">关于网竞</a></li>
+				<li class="menu-item active"><a href="./INFO.html">网竞资讯</a></li>
+				<!-- <li class="menu-item"><a href="./index.html">联系网竞</a></li> -->
+				<li class="menu-item"><a href="./joinwj.html">加入网竞</a></li>
+			</ul>
+			<div class="projectsList" style="right: 0;left: initial;">
+				<div class="p_top">
+					<a href="secondHtml/ESCC.html">
+						<p>ESCC/华体网竞<br>
+							<span>国家级赛事</span>
+							<span>电竞场馆标准参编单位</span>
+							<span>电竞赛事标准化</span>
+						</p>
+					</a><a href="secondHtml/wangyu.html">
+						<p>网娱大师<br>
+							<span>赛事信息自动化平台</span>					
+							<span>官方赛事合作</span>
+							<span>第三方接入合作</span>
+						</p>
+					</a>
+					<a href="secondHtml/haimiou.html">
+						<p>海米欧<br>
+							<span>网咖升级、游戏体验馆</span>
+							<span>创新游戏体验设备</span>
+							<span>游戏体验、推广、分发</span>
+						</p>
+					</a>	
+					<a href="secondHtml/yeyou.html">
+						<p>杭州业游<br>
+							<span>腾讯官方指定代理商、推广商</span>
+							<span>活动、推广、演出、策划执行</span>
+							<span>丰富的官方大型活动执行经验</span>
+						</p>
+					</a>
+				</div>
+				<div class="p_top" id="p_bottom">
+					<a href="secondHtml/yuer.html" style="display:none;">
+						<p>娱儿直播<br>
+							<span>移动电竞直播</span>
+							<span>千名主播团队</span>
+							<span>赛事现场直播</span>
+						</p>
+					</a>
+					<a href="secondHtml/lejing.html">
+						<p>上海乐竞／天戟文化<br>
+							<span>电竞选手、艺人、主播经纪业务</span>
+							<span>代言、商演、法务支持</span>
+							<span>电竞赛事、活动策划执行</span>
+						</p>
+					</a>
+					<a href="secondHtml/lm.html">
+						<p>网竞教育
+							<span>兴趣班</span>
+							<span>职业教育</span>
+							<span>学历教育、青训班</span>
+						</p>
+					</a>
+					<a href="secondHtml/ruizhi.html">
+						<p>睿指科技<br>
+							<span>首创全民参与移动电竞玩法</span>
+							<span>移动电竞场馆的搭建、赛事承接</span>
+							<span>参与制定移动电竞馆的国家标准</span>
+						</p>	
+					</a>	
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="wheel">
+			    <div class="wheel-inner">
+			        <div class="wheel-list" id="J_banner" style="height: 500px;">
+				    	<!-- <div class="wheel-item" style="left: 0">
+				    		<img src="http://img1.91.com/uploads/allimg/130425/32-1304251I101.jpg">
+				    	</div>
+				    	<div class="wheel-item">
+				    		<img src="http://img5q.duitang.com/uploads/item/201408/11/20140811131426_2aAEC.jpeg">
+				    	</div>
+				    	<div class="wheel-item">
+				    		<img src="http://www.pp3.cn/uploads/201611/2016111907.jpg">
+				    	</div>
+				    	<div class="wheel-item">
+				    		<img src="http://pic1.cxtuku.com/00/07/20/b658f9f210c2.jpg">
+				    	</div> -->
+				    </div>
+			    </div>
+				<ul class="axle">
+					<li class="gear active"></li>
+					<li class="gear"></li>
+					<li class="gear"></li>
+					<li class="gear"></li>
+				</ul>
+			</div>
+			<div class="naved">
+				<ul class="nav-menu">
+					<li class="nav-item active" data-type="2">最新赛事</li>
+					<li class="nav-item" data-type="3">精彩活动</li>
+					<li class="nav-item" data-type="4">行业动态</li>
+					<li class="nav-item" data-type="5">资讯新闻</li>
+					<li class="nav-item" data-type="6">往期赛事</li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="content-inner">
+					<div id="J_data_entry" class="info-menu">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="sliding">
+			
+		</div>
+	</body>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/common.js"></script>
+	<script >
+	$(document).ready(function () {
+		var api = "http://api.wangyuhudong.com/";
+		
+		var type = 2;
+		var originalTop = 580;
+		var dataHieght = 440;
+		var boxHeight = 440;
+		var dataPage = 1;
+		var iHeight = 0;  
+		var clientHeight = 0; 
+		var iIntervalId = null;
+		var iTop = 0;
+		// 取得当前页面显示所占用的高度  
+		function getPageHeight() {   
+		  if(document.body.clientHeight && document.documentElement.clientHeight) {    
+		    clientHeight = (document.body.clientHeight < document.documentElement.clientHeight) ? document.body.clientHeight : document.documentElement.clientHeight;            
+		  } else {    
+		    clientHeight = (document.body.clientHeight > document.documentElement.clientHeight) ? document.body.clientHeight : document.documentElement.clientHeight;        
+		  }  
+		  
+		  iHeight = Math.max(document.body.scrollHeight,document.documentElement.scrollHeight);  
+		}  
+		iIntervalId = setInterval(function () {
+			onScroll();
+		}, 1000); 
+		// 检测事件，检测滚动条是否接近或到达页面的底部区域，0.99是为了更接近底部时  
+		function onScroll() {  
+		  iTop = document.documentElement.scrollTop + document.body.scrollTop;  
+		  getPageHeight();  
+		  if(((iTop + clientHeight) > parseInt(iHeight*0.99)) || reachBottom()) {  
+		    dataPage = dataPage + 1;
+		    requestInfoList({type: type, page: dataPage});
+		  }  
+		};   
+		// 判断滚动条是否到达底部  
+		function reachBottom() {  
+		  var scrollTop = 0;  
+		  if(document.documentElement && document.documentElement.scrollTop) {    
+		    scrollTop = document.documentElement.scrollTop;    
+		  } else if (document.body) {    
+		    scrollTop = document.body.scrollTop;    
+		  }  
+		  if((scrollTop > 0) && (scrollTop + clientHeight == iHeight)) {  
+		    return true;    
+		  } else {    
+		    return false;   
+		  }  
+		}  
+		// 判断是否有滚动条来控制头部菜单栏长度
+		function setHeaderRight() {
+			var $header = $(".header");
+			var navWidth = $(".naved").width();
+			var headerWidth = $header.width();
+			$header[0].style.right = (headerWidth - navWidth) + "px";
+		}
+		//切换子菜单
+		$(".nav-item").on('click', function () {
+			var _this = $(this);
+			_this.addClass("active").siblings().removeClass("active");
+			clearInterval(iIntervalId);
+
+			dataHieght = 1800;
+			dataPage = 1;
+			type = _this.data("type");
+			// $("#J_data_entry").html("");
+			requestInfoList({type: type, page: dataPage});
+			iIntervalId = setInterval(function () {
+				onScroll();
+			}, 1000); 
+		});
+
+	//显示隐藏子菜单
+	$('#j_show').click(function (event) {
+			event.stopPropagation();
+			
+			if($(".projectsList").css('display')=='none'){
+				$(".projectsList").show();
+				$('.downUp').css({"transform":"rotate(180deg)"})
+			}else{
+				$(".projectsList").hide();
+				$('.downUp').css({"transform":"rotate(360deg)"})
+			}
+		});
+		//点击隐藏顶部导航栏
+		$(document).click(function () {
+			
+			$(".projectsList").hide();
+			$('.downUp').css({"transform":"rotate(360deg)"})
+		})	
+		
+		//鼠标滚动事件
+		var $slidebox = $(".sliding");
+		
+		window.addEventListener("mousewheel",function(event){
+		  var scrollY = $(window)[0].scrollY;
+		  //置顶按钮
+		  if(scrollY > originalTop) {
+		  	$slidebox.fadeIn(1000);
+		  } else {
+		  	$slidebox.fadeOut(1000);
+		  }
+		},false);
+		//点击向上滚动按钮
+		$slidebox.click(function () {
+			$('body, html').animate({scrollTop: 0}, 1000);
+		});
+		//点击跳转到资讯详情
+		$(document).on('click', '.info-item, .wheel-item', function (event) {
+			var $this = $(this);
+			var dataId = $this.data("id");
+			var dataType = $this.data("type");
+
+			window.location.href = "./INFODetail.html?id="+dataId+"&type="+dataType;
+		});
+		requestInfoList({type: 2, page: dataPage});
+		
+		//获取资讯列表数据
+		function requestInfoList (param) {
+			$.ajax({
+			    url: api+"official/website/infolist",
+			    data: {
+			  	  kind: 1,
+			  	  size: 12,
+			  	  page: param.page,
+			  	  type: param.type
+			  }
+			}).done(function(response) {
+				var code = response.code;
+				var data = response.object;
+				
+			    if(code == 0) {
+			    	var dataItem = '';
+					var dataEntry = '';
+			    	if(!data || data.list.length == undefined || data.list.length == 0 ) {
+						clearInterval(iIntervalId);
+					} else {
+						for(var i = 0; i < data.list.length; i++) {
+				    		dataItem =  data.list[i];
+				    		dataEntry += '<div class="info-item" data-id="'+dataItem.id+'" data-type="'+dataItem.type+'">'+
+										'<img class="item-img" src="http://img.wangyuhudong.com/'+dataItem.icon+'">'+
+										'<div class="item-title">'+dataItem.title+'</div>'+
+										'<div class="item-details">'+dataItem.content+'</div>'+
+										'<div class="info-mark">'+
+											// '<div class="author">文／'+dataItem.create_date+'</div>'+
+										'<div class="time">'+dataItem.create_date+'</div>'+
+										'</div>'+
+										'</div>';
+				    	}
+				    	$("#J_data_entry").html(dataEntry);
+
+						setHeaderRight();
+					}
+			    } else if (code == -3) {
+			    	
+			    }
+			});
+		}
+		requestBannerImg();
+		//获取banner图片数据
+		function requestBannerImg () {
+			$.ajax({
+			    url: api+"official/website/banner"
+			}).done(function(response) {
+				var code = response.code;
+				var data = response.object;
+			    if(code == 0) {
+			    	$("#J_banner").html("");
+			    	var dataItem = '';
+			    	var dataBanner = '';
+			    	for(let i = 0; i < data.length; i++) {
+			    		dataItem =  data[i];
+			    		dataBanner += '<div class="wheel-item"  data-id="'+dataItem.id+'" data-type="'+dataItem.type+'">'+
+				    		'<img src="http://img.wangyuhudong.com/'+dataItem.icon+'">'+
+				    	'</div>';
+			    	}
+			    	$("#J_banner").append(dataBanner);
+			    	//轮播
+			    	var $wheelList = $(".wheel-list");
+					var $wheelItem = $(".wheel-item");
+					var $wheelClickItem = $(".gear");
+					var clickItem = 0;
+					var currentItem = 0;
+					var oldItem = 0;
+					$wheelItem.eq(0).css("left", 0);
+					//轮播图片尺寸
+					var wheelHeight = $wheelItem[0].clientHeight;
+					setTimeout(function () {
+						$wheelList.height(wheelHeight);
+					}, 500);
+					
+
+					//轮播－自动播放
+					function commonFun () {
+						oldItem = currentItem;
+						currentItem <= 2 ? currentItem++ : currentItem = 0;
+						$wheelItem.eq(oldItem).animate({left:"-100%"}, 1000);
+						$wheelItem.eq(currentItem).css("left","100%").animate({left:0}, 1000);
+						$wheelClickItem.eq(currentItem).addClass("active").siblings().removeClass("active");
+					}
+					var wheelTime = setInterval(commonFun, 5000);
+					//轮播－点击切换
+					$wheelClickItem.on('click', function () {
+						clearInterval(wheelTime);
+						var _this = $(this);
+						clickItem = $wheelClickItem.index(_this);
+						_this.addClass("active").siblings().removeClass("active");
+						if(clickItem == currentItem) {
+							return;
+						} else {
+							oldItem = currentItem;
+							currentItem = clickItem;
+							$wheelItem.eq(oldItem).animate({left:"-100%"}, 600);
+							$wheelItem.eq(currentItem).css("left","100%").animate({left:0}, 600);
+							wheelTime = setInterval(commonFun, 2000);
+						}
+					});
+			    } else if (code == -3) {
+			    	
+			    }
+			});
+		}
+	});
+	
+	</script>
+	
+</html>

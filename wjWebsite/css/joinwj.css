@@ -1,0 +1,175 @@
+body{
+	background: #fff;;
+}
+.j_bg{
+	width:100%;
+	height:600px;
+	background:#1a1c2b;
+}
+.j_top{
+	width:100%;
+	min-width: 1000px;
+	height:600px;
+	margin:0 auto;
+	background: url(../images/common/joinbg.jpg) no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+.j_mark {
+    line-height: 620px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+	color: #fff;
+}
+.j_mark .slim {
+	font-weight: 100;
+}
+.j_center{
+	width:100%;
+	background: #fff;
+}
+.j_all{
+	width:1000px;
+	margin:0 auto;
+	margin-bottom:80px;
+}
+.j_nav{
+	width:100%;
+	height:148px;
+}
+.j_nav li{
+	float:left;
+	width: 14.28%;
+	height:148px;
+	text-align: center;
+	color: rgb(34, 34, 34);
+	font-size: 18px;
+}
+
+.j_nav li div{
+	width:70px;
+	height:70px;
+	background:#000;
+	border-radius: 50%;
+	position:relative;
+	left: 50%;
+	margin-left:-35px;
+	margin-top:33px;
+	margin-bottom:10px;
+}
+.j_nav li div img{
+	position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+#bg_orange{
+	background:#E84027;	
+}
+.j_nav  .on{
+	color:#E84027;
+	font-weight: bold;
+}
+.j_category{
+	width:100%:
+	height:55px;
+	line-height:55px;
+}
+.j_category img{
+	vertical-align: middle;
+	margin-top:-4px;
+	margin-right:10px;
+}
+.j_category span{
+	margin-right:25px;
+	font-size: 16px;
+	color: rgb(153, 153, 153);
+}
+.j_list_technology,.j_list_product,.j_list_banking,.j_list_design,.j_list_operate,.j_list_zn,.j_list_markt{
+	display:none;
+}
+ .j_list_every{
+	width:100%;
+	background:#F3F3F3;
+	border:1px solid #E3E3E3;
+	border-left:6px solid #E84027;
+	padding-left:25px;
+	margin-bottom:20px;
+	box-sizing: border-box;
+}
+.j_list_every .j_list_top{
+	width:100%;
+	height:75px;
+	padding-top:15px;
+	position: relative;
+}
+.j_zk{
+	width: 60px;
+	height: 90px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	//
+	transform: rotate(360deg);
+}
+.j_zk_hide {
+	transform: rotate(360deg);
+}
+.j_zk img{
+	margin-left:4px;
+	margin-top: 36px;
+}
+ .j_list_every .j_list_top .marginRight{
+	margin-right:40px;
+}
+.j_list_top h2{
+	font-size: 20px;
+	height:30px;
+	line-height:30px;
+	margin-bottom:5px;
+    color: rgb(34, 34, 34);
+    
+}
+.j_no{
+	height:40px;
+	text-align: center;
+	line-height:40px;;
+}
+.j_list_top h2 img{
+	vertical-align: middle;
+	margin-left:10px;
+	margin-top:-3px;;
+}
+.j_require{
+	margin-bottom:20px;
+}
+.j_email{
+	color:#333333;
+	font-size:18px;
+	margin-top:30px;
+	margin-bottom:40px;
+}
+.j_bottom{
+	width:100%;
+	height:1280px;
+	background:#1a1c2b;
+}
+.j_bottom_content{
+	width:100%;
+	height: 1280px;
+	min-width:1000px;
+	margin:0 auto;
+	background:url(../images/join/j_bottom.png) no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+.contact{
+	width:1000px;
+	height:1130px;
+	margin:0 auto;
+	padding-top:150px;
+	position:relative;
+}
