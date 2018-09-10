@@ -253,7 +253,7 @@ text{
 .index3{
 	width:100%;
 	height:100%;
-	background:url(../images/index/line-01.jpg) no-repeat;
+	background:url(../images/index/bg.jpg) no-repeat;
 	background-size:100% 100%;
 	background-position: center;
 	position:relative;
@@ -649,7 +649,10 @@ background-color: #E84027;
 	background-size: contain;
 }
 
-
+.znsbxian{
+	
+	
+}
 
 .disanlogo{
 	width: 20vw;
@@ -689,7 +692,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 32%;
-	top: 22%;	
+	top: 25%;	
 	
 }
 .disandjjy{
@@ -709,7 +712,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 60.5%;
-	top: 18%;	
+	top: 21%;	
 }
 .disandjcg{
 	width: 17vw;
@@ -728,7 +731,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 29.3%;
-	top: 52%;	
+	top: 54%;	
 }
 .disandjss{
 	width: 17vw;
@@ -747,7 +750,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 59%;
-	top:57%;	
+	top:59.7%;	
 }
 .list11 {
 	width:7%;
@@ -756,7 +759,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 21.6%;
-	top: 40%;	
+	top: 41%;	
 	
 	opacity: 0; 
 	filter:Alpha(opacity=100);
@@ -768,7 +771,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 13.5%;
-	top: 25%;	
+	top: 28%;	
 	
 	opacity: 0; 
 	filter:Alpha(opacity=100);
@@ -780,7 +783,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left:10%;
-	top: 40.5%;	
+	top: 43%;	
 		
 	opacity: 0; 
 	filter:Alpha(opacity=100);
@@ -792,7 +795,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 15%;
-	top: 53.2%;	
+	top: 56%;	
 	
 	opacity: 0; 
 	filter:Alpha(opacity=100);
@@ -804,7 +807,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 26%;
-	top: 67%;	
+	top: 70%;	
 	
 	opacity: 0; 
 	filter:Alpha(opacity=100);
@@ -816,7 +819,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 43.5%;
-	top: 57.5%;	
+	top: 60%;	
 	
 	opacity: 0; 
 	filter:Alpha(opacity=100);
@@ -829,7 +832,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	right:11.8%;
-	top: 49%;	
+	top: 51.2%;	
 	
 	opacity: 0; 
 	filter:Alpha(opacity=100);
@@ -842,7 +845,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	right: 9%;
-	top: 70%;	
+	top: 72%;	
 	
 	opacity: 100; 
 	filter:Alpha(opacity=100);
@@ -855,19 +858,19 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	right: 14.3%;
-	top: 33%;	
+	top: 36%;	
 	
 	opacity: 100; 
 	filter:Alpha(opacity=100);
 }
 .list2{
-	width:7%;
+	width:8%;
 	height:12%;
 	background:rgba(255, 0, 0, 0);
 	position: absolute;
 	z-index:100;
-	right: 18.4%;
-	top: 12.5%;	
+	right: 17.3%;
+	top: 14.9%;	
 	opacity: 100;  
 	filter:Alpha(opacity=100);
 }
@@ -879,7 +882,7 @@ background-color: #E84027;
 	position: absolute;
 	z-index:100;
 	left: 23.5%;
-	top: 12%;	
+	top: 14%;	
 		
 	opacity: 100;  
 	filter:Alpha(opacity=100);
