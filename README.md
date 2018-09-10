@@ -33,6 +33,10 @@ git push origin master
 删除分支：git branch -d <name> 
 小结：分支不是文件夹，而是当前库的头部文件。即所有人拉取代码时同步的头部文件。从远程库克隆时自动关联。
 
+-------------------git rebase
+
+
+
 ------------------------常用命令
 
    mkdir：         XX (创建一个空目录 XX指目录名)
@@ -66,3 +70,32 @@ git push origin master
    git remote 查看远程库的信息
    git remote –v 查看远程库的详细信息
    git push origin master  Git会把master分支推送到远程库对应的远程分支上
+
+
+
+-------------------git 标签管理
+
+标签是给分支设立的,默认标签是打在最新提交的commit上的。
+git tag v1.0........建立标签
+
+git tag    查看标签
+
+给历史提交的commit打标签
+
+ git log --pretty=oneline --abbrev-commit
+ 从结果的树上取前7位*******
+
+ git tag v0.9 *******
+
+git tag -a v0.1 -m "说明文字"  *******
+-----------------
+ git show v0.1   查看说明文字
+
+ git tag -d v0.1   删除v0.1的本地标签
+ git push origin :refs/tags/v0.1   删除v0.1的远程标签
+
+ git push origin （v1.0；--tags)   推送标签至远程(1.0版本或所有标签)
+
+------------------------------
+忽略特殊文件或目录
+Ignore files.gitignore

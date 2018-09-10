@@ -1,0 +1,16 @@
+# 提交代码时需要被忽略的文件名
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+#my-files:
+__MACOSX
