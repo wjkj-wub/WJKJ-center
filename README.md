@@ -23,6 +23,26 @@ git pull origin master --allow-unrelated-histories
 ------推送本地库至线上库
 git push origin master 
 
+-------------------git bisect 查BUG
+# 开始 bisect
+$ git bisect start
+ 
+# 录入正确的 commit
+$ git bisect good xxxxxx
+ 
+# 录入出错的 commit
+$ git bisect bad xxxxxx
+ 
+# 然后 git 开始在出错的 commit 与正确的 commit 之间开始二分查找，这个过程中你需要不断的验证你的应用是否正常
+$ git bisect bad
+$ git bisect good
+$ git bisect good
+...
+ 
+# 直到定位到出错的 commit，退出 bisect
+$ git bisect reset
+
+
 -------------------git 分支学习
 
 查看分支：git branch
@@ -32,8 +52,32 @@ git push origin master
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name> 
 小结：分支不是文件夹，而是当前库的头部文件。即所有人拉取代码时同步的头部文件。从远程库克隆时自动关联。
+----临时储存代码
+临时储存当前代码:git stash 
+切换master--建立新分支--修复bug--合并分支--删除bug分支--回到dev分支--
+查看临时储藏：git stash lis 
+恢复临时储藏：git stash apply
+删除临时储藏库：git stash drop
+-----解决冲突
+git merge (分支)---合并修改到分支
+$git status 查询冲突文件
+    On branch master
+    Your branch is ahead of 'origin/master' by 2 commits.
+    (use "git push" to publish your local commits)
 
--------------------git rebase
+    You have unmerged paths.
+    (fix conflicts and run "git commit")
+    (use "git merge --abort" to abort the merge)
+
+    Unmerged paths:
+    (use "git add <file>..." to mark resolution)
+
+    both modified:   readme.txt
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+
+-------------------git rebase变基
+git log --graph --pretty=oneline --abbrev-commit 查看分支提交历史
 
 
 
