@@ -1,11 +1,11 @@
-$('.nav_more').hover(function(){
+$('.mores').mouseenter(function () {
     $(".nav").finish();
     $('.nav').animate({
         right: "90px"
     },400);
     $('.mores').css({'background':'url(images/common/close.png) no-repeat','background-size':'100% 100%'});
     $('.projectsList').fadeOut();   
- },function(){
+ },).mouseleave(function(){
     $(".nav").finish();
     $('.nav').animate({
         right:"-990px"  
