@@ -300,14 +300,155 @@ text {
 
 
 .index3 {
+	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/index/line-01.jpg) no-repeat;
-	background-size: 100% 100%;
-	background-position: center;
-	position: relative;
+	background: url(../images/index/bg-project.jpg) no-repeat center;
+}
+.project-content{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-32%;
+	margin-top:-22%;
+	width:61%;
+	padding-top:42%;
+	background: url(../images/index/bg-project-content.png) no-repeat center;
+	background-size: 100%;
+}
+.project-content .hexagon{
+	position: absolute;
+	perspective: 1000;
+}
+.hexagon .filp-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	width:100%;
+	height:100%;
+	background: url(../images/index/model.png) no-repeat center;
+	background-size: 100%;
+	transition: 1s;
+	transform-style: preserve-3d;
+	
+}
+.hexagon:hover .filp-container{
+	transform: translate(-50%, -50%) rotateY(180deg);
+	-webkit-transform: translate(-50%, -50%) rotateY(180deg);
+	-ms-transform: translate(-50%, -50%) rotateY(180deg);
+	transform: translate(-50%, -50%) rotateY(180deg);
+}
+.hexagon .front {
+	position: absolute;
+	width:100%;
+	height:100%;
+	z-index: 2;
+	transform: rotateY(0deg);
+	backface-visibility: hidden;
+}
+.hexagon .back {
+	position: absolute;
+	width:100%;
+	height:100%;
+	z-index: 2;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+}
+.hexagon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
 
+.hexagon.haimio{
+	top:3.8%;
+	left:17.7%;
+	width: 8%;
+	padding-top:9.5%;
+}
+.hexagon img{
+	width:80%
+}
+.hexagon.whds{
+	top: 27.8%;
+	left: 12.8%;
+	width: 7%;
+	padding-top: 8.2%;
+}
+.whds img{
+	width:90%;
+}
+.hexagon.ygj{
+	top: 41.5%;
+	left: 6.5%;
+	width: 8%;
+	padding-top: 9.5%;
+}
+.ygj img{
+	width:60%;
+}
+.hexagon.wyds{
+	top: 55.5%;
+	left: 14%;
+	width: 8.5%;
+	padding-top: 10%;
+}
+.wyds img{
+	width:70%;
+}
+.hexagon.htwj{
+	bottom: 4%;
+	left: 24.7%;
+	width: 8.5%;
+	padding-top: 10%;
+}
+.hexagon.ysb {
+	bottom: 4%;
+	left: 36.7%;
+	width: 8.5%;
+	padding-top: 10%;
+}
+.ysb img{
+	width:50%;
+}
+.hexagon.edu{
+	top: 15.2%;
+	right: 13.2%;
+	width: 11.5%;
+	padding-top: 13.5%;
+}
+.hexagon.webGame {
+	top: 44.5%;
+	right: 14.8%;
+	width: 8.5%;
+	padding-top: 10%;
+}
+
+.hexagon.escc {
+	top: 60.2%;
+	right: 6.1%;
+	width: 10.5%;
+	padding-top: 11.7%;
+}
+.escc img{
+	width:55%;
+}
+
+.hexagon.asgard {
+	bottom: 6.5%;
+	right: 14.3%;
+	width: 10.5%;
+	padding-top: 11.7%;
+}
+.asgard img{
+	width:50%;
+}
 .service {
 	width: 80%;
 	height: 500px;
@@ -330,7 +471,12 @@ text {
 	position: absolute;
 	top: 50%;
 	margin-top: -230px;
-	background: url(../images/index/vision.png) no-repeat;
+	background: url(../images/index/vision_en.png) no-repeat;
+}
+.s_left p{
+	width:240px;
+	margin: 80px auto 0 auto;
+	color:#fff;
 }
 
 .s_right {
@@ -421,7 +567,6 @@ text {
 .s_right .pic1 div .advantage span:nth-child(1) {
 	display: block;
 	float: left;
-	width: 80px;
 	height: 28px;
 	padding:0 5px;
 	text-align: center;
@@ -491,9 +636,16 @@ text {
 	width: 884px;
 	height: 140px;
 	margin: 0 auto;
-	background: url(../images/index/Cooperative.png) no-repeat;
+	background: url(../images/index/partner_en.png) no-repeat;
 }
-
+.c_top p{
+	width: 460px;
+	color: #fff;
+	font-size: 14px;
+	float: right;
+	margin-top: 26px;
+	margin-right: 50px;
+}
 .partnerImg {
 	width: 1000px;
 	height: 280px;
@@ -532,11 +684,19 @@ text {
 	z-index: 12;
 	min-width: 1000px;
 }
-
+.contact-title {
+	width: 100%;
+	height: 90px;
+	margin-top:40px;
+	line-height:90px;
+	font-size:40px;
+	color:#fff;
+	text-align: center;
+}
 .hh {
 	width: 100%;
 	height: 78px;
-	background: url(../images/index/hh.png) center no-repeat;
+	/* background: url(../images/index/hh.png) center no-repeat; */
 	margin-top: 8%;
 	margin-bottom: 8%;
 }

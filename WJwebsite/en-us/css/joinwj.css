@@ -18,7 +18,7 @@ body{
 .j_mark {
     line-height: 620px;
     text-align: center;
-    font-size: 70px;
+    font-size: 42px;
     font-weight: bold;
 	color: #fff;
 }
@@ -74,7 +74,7 @@ body{
 	font-weight: bold;
 }
 .j_category{
-	width:100%:
+	width:100%;
 	height:55px;
 	line-height:55px;
 }
@@ -112,7 +112,6 @@ body{
 	position: absolute;
 	right: 10px;
 	top: 0;
-	//
 	transform: rotate(360deg);
 }
 .j_zk_hide {
@@ -154,12 +153,12 @@ body{
 }
 .j_bottom{
 	width:100%;
-	height:1280px;
+	height:900px;
 	background:#1a1c2b;
 }
 .j_bottom_content{
 	width:100%;
-	height: 1280px;
+	height: 900px;
 	min-width:1000px;
 	margin:0 auto;
 	background:url(../images/join/j_bottom.png) no-repeat;
@@ -168,8 +167,13 @@ body{
 }
 .contact{
 	width:1000px;
-	height:1130px;
+	height:900px;
 	margin:0 auto;
-	padding-top:150px;
 	position:relative;
+}
+.noData{
+	width:100%;
+	height:500px;
+	line-height:500px;
+	text-align:center;
 }

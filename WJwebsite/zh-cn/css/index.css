@@ -994,30 +994,30 @@ text {
 
 .list1k {
 	background: url(../images/index/01left-top.png) 0 center no-repeat;
-	opacity: 0;
-	filter: Alpha(opacity=100);
+	/* opacity: 0;
+	filter: Alpha(opacity=100); */
 	float: left;
 
 }
 
 .list2k {
 	background: url(../images/index/02right-top.png) 0 center no-repeat;
-	opacity: 0;
-	filter: Alpha(opacity=100);
+	/* opacity: 0;
+	filter: Alpha(opacity=100); */
 	float: left;
 }
 
 .list3k {
 	background: url(../images/index/03left-bottom.png) 0 center no-repeat;
-	opacity: 0;
-	filter: Alpha(opacity=100);
+	/* opacity: 0;
+	filter: Alpha(opacity=100); */
 	float: left;
 }
 
 .list4k {
 	background: url(../images/index/04right-bottom.png) 0 center no-repeat;
-	opacity: 0;
-	filter: Alpha(opacity=100);
+	/* opacity: 0;
+	filter: Alpha(opacity=100); */
 	float: left;
 }
 
