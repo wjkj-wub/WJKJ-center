@@ -109,8 +109,8 @@
 	<section class="panel " data-section-name="overview2">
 		<div class="a_index2">
 			<div class="about-wj">
-				<div class="left-content animated">
-					<div class="text-content">
+				<div class="about-title animated">
+					<!-- <div class="text-content">
 						<div class="text-content-tag"></div>
 						<div class="text-content-line"></div>
 						<h2 class="text-content-title" style="background: url(./images/about/wj_about_us.png) 50% 50% no-repeat;"></h2>
@@ -121,10 +121,42 @@
 						<div class="tab-item">Mission</div>
 						<div class="tab-item">Principle</div>
 						<div class="tab-item">Criterion</div>
-					</div>
+					</div> -->
 				</div>
-				<div class="right-content animated">
-					<h2 class="title">成长的网竞</h2>
+				<ul class="about-content animated">
+					<li class="about-item">
+						<i class="icon icon-vision"></i>
+						<div class="desc">
+							<h3>Vision</h3>
+							<p>Serve for Global E-sports Fans</p>
+						</div>
+					</li>
+					<li class="about-item">
+						<i class="icon icon-mission"></i>
+						<div class="desc">
+							<h3>Mission</h3>
+							<p>Make E-sports Everywhere</p>
+						</div>
+					</li>
+					<li class="about-item">
+						<i class="icon icon-principle"></i>
+						<div class="desc">
+							<h3>Principle</h3>
+							<p>Integrity, Unity</p>
+							<p>Struggle, Devotion</p>
+						</div>
+					</li>
+					<li class="about-item">
+						<i class="icon icon-criterion"></i>
+						<div class="desc">
+							<h3>Criterion</h3>
+							<p>User-Oriented</p>
+							<p>Result-Based</p>
+							<p>Agile-Innovation</p>
+							<p>Change-Embracing</p>
+						</div>
+					</li>
+					<!-- <h2 class="title">成长的网竞</h2>
 					<div class="list">
 						<div class="list-item">
 							<p class="text">2015年8月，浙江网竞网络科技有限公司成立，确立研发中心及营运中心。</p>
@@ -223,7 +255,7 @@
 							<span class="triangle"></span>
 						</div>
 
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -348,8 +380,8 @@
 			}
 			if (ref === "overview2") {
 				initialAnimated();
-				$(".left-content").addClass("bounceInLeft");
-				$(".right-content").addClass("bounceInRight");
+				$(".about-title").addClass("bounceInLeft");
+				$(".about-content").addClass("bounceInRight");
 			}
 			if (ref === "overview3") {
 				initialAnimated();
@@ -373,8 +405,8 @@
 	});
 
 	function initialAnimated() {
-		$(".left-content").removeClass("bounceInLeft");
-		$(".right-content").removeClass("bounceInRight");
+		$(".about-title").removeClass("bounceInLeft");
+		$(".about-content").removeClass("bounceInRight");
 		$(".snapshot-title").removeClass("fadeInLeft");
 		$(".snapshot-content").removeClass("fadeInRight");
 		$(".orgnization-title").removeClass("fadeInDown");
