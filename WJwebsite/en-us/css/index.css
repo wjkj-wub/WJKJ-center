@@ -313,7 +313,7 @@ text {
 	margin-top:-22%;
 	width:61%;
 	padding-top:42%;
-	background: url(../images/index/bg-project-content.png) no-repeat center;
+	background: url(../images/index/bg-project-content-en.png) no-repeat center;
 	background-size: 100%;
 }
 .project-content .hexagon{
@@ -367,17 +367,17 @@ text {
 }
 
 .hexagon.haimio{
-	top:3.8%;
-	left:17.7%;
-	width: 8%;
-	padding-top:9.5%;
+	top: 9%;
+	left: 13.7%;
+	width: 8.5%;
+	padding-top: 10%;
 }
 .hexagon img{
 	width:80%
 }
 .hexagon.whds{
-	top: 27.8%;
-	left: 12.8%;
+	top: 42.5%;
+	left: 30%;
 	width: 7%;
 	padding-top: 8.2%;
 }
@@ -385,54 +385,54 @@ text {
 	width:90%;
 }
 .hexagon.ygj{
-	top: 41.5%;
-	left: 6.5%;
-	width: 8%;
-	padding-top: 9.5%;
+	top: 39.7%;
+	left: 15%;
+	width: 9%;
+	padding-top: 10%;
 }
 .ygj img{
 	width:60%;
 }
 .hexagon.wyds{
-	top: 55.5%;
-	left: 14%;
-	width: 8.5%;
-	padding-top: 10%;
+	top: 57.3%;
+	left: 8.7%;
+	width: 9%;
+	padding-top: 10.5%;
 }
 .wyds img{
 	width:70%;
 }
 .hexagon.htwj{
-	bottom: 4%;
-	left: 24.7%;
-	width: 8.5%;
-	padding-top: 10%;
+	bottom: 10.2%;
+	left: 15.7%;
+	width: 9%;
+	padding-top: 10.5%;
 }
 .hexagon.ysb {
-	bottom: 4%;
-	left: 36.7%;
-	width: 8.5%;
-	padding-top: 10%;
+	bottom: 10.2%;
+	left: 29.7%;
+	width: 9%;
+	padding-top: 10.5%;
 }
 .ysb img{
 	width:50%;
 }
 .hexagon.edu{
-	top: 15.2%;
-	right: 13.2%;
-	width: 11.5%;
-	padding-top: 13.5%;
+	top: 12.9%;
+	right: 14.7%;
+	width: 12%;
+	padding-top: 14%;
 }
 .hexagon.webGame {
-	top: 44.5%;
-	right: 14.8%;
-	width: 8.5%;
-	padding-top: 10%;
+	top: 42.5%;
+	right: 16.5%;
+	width: 9%;
+	padding-top: 10.5%;
 }
 
 .hexagon.escc {
-	top: 60.2%;
-	right: 6.1%;
+	top: 58.5%;
+	right: 7.5%;
 	width: 10.5%;
 	padding-top: 11.7%;
 }
@@ -441,8 +441,8 @@ text {
 }
 
 .hexagon.asgard {
-	bottom: 6.5%;
-	right: 14.3%;
+	bottom: 7%;
+	right: 15%;
 	width: 10.5%;
 	padding-top: 11.7%;
 }
