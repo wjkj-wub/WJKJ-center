@@ -1,10 +1,11 @@
 /*导航*/
 .nav{
-	width:600px;
+	/* width:600px; */
 	height:60px;
 	color:#fff;
 	position:fixed;
 	right:-860px;
+	right:-990px;
 	background-color: #3d3d3daf;
     /* background:url(../images/common/bgopacity.png) no-repeat; */
     background-size:cover;
@@ -77,8 +78,8 @@
 .nav li{
 	float:left;
 	height:60px;
+	padding:0 30px;
 	line-height:60px;
-	width:112px;
 	text-align: center;
 	font-size:16px;
 }
@@ -194,15 +195,14 @@
 	position:absolute;
 	display:none;
 	top:100%;
-	left:-112px;
-	width:500px;
-	/* height:244px; */
+	left:0;
+	width:550px;
+	padding:20px;
     background-color: #3d3d3daf;
 }
 
 .p_top{
 	width:100%;
-	margin-top:15px;
 }
 #p_bottom{
 	margin-top:0;
@@ -215,7 +215,7 @@
 	font-size: 16px;
 	color:#fff;
 	line-height:24px;
-	padding-left: 20px;
+	padding-left:10px;
     box-sizing: border-box;
 }
 .p_top p span{

@@ -5,11 +5,17 @@ html {
 .hide {
 	display: none;
 }
+.box-wrapper{
+	position: relative;
+	width:100%;
+	min-width: 1200px;
+}
 .header {
 	position: fixed;
 	top: 0;
 	width: 100%;
 	height: 80px;
+	min-width: 1200px;
 	line-height: 80px;
 	background-color: #1a1d2b;
 	z-index: 99;
@@ -23,8 +29,11 @@ html {
 	background: url(../images/index/info_pic_logo.png) no-repeat;
 	background-size: contain;
 }
-.header .menu {
+.header .menu-wrapper{
 	float: right;
+	position: relative;
+}
+.header .menu {
 	overflow: hidden;
 	color: #fff;
 	font-size: 16px;
@@ -34,6 +43,7 @@ html {
 	float: left;
 	padding-left: 30px;
 	padding-right: 30px;
+	cursor: pointer;
 }
 .menu-item a {
 	color: #fff;
