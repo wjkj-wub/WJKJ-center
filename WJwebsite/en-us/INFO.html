@@ -92,7 +92,8 @@
 		</div> -->
 			<div class="naved">
 				<ul class="nav-menu">
-					<li class="nav-item active" data-type="2">News</li>
+					<!-- <li class="nav-item active" data-type="4">News</li> -->
+					<!-- <li class="nav-item active" data-type="2">News</li> -->
 					<!-- <li class="nav-item" data-type="3">Culture</li>
 					<li class="nav-item" data-type="5">Industry</li>
 					<li class="nav-item" data-type="6">Event</li> -->
@@ -117,7 +118,7 @@
 	$(document).ready(function () {
 		var api = "http://api.wangyuhudong.com/";
 
-		var type = 2;
+		var type = 4;
 		var originalTop = 580;
 		var dataHieght = 440;
 		var boxHeight = 440;
@@ -245,7 +246,7 @@
 			window.location.href = "./INFODetail.html?id=" + dataId + "&type=" + dataType;
 		});
 		requestInfoList({
-			type: 2,
+			type: type,
 			page: dataPage
 		});
 
@@ -290,7 +291,7 @@
 				}
 			});
 		}
-		requestBannerImg();
+		// requestBannerImg();
 		//获取banner图片数据
 		// function requestBannerImg() {
 		// 	$.ajax({
