@@ -305,6 +305,58 @@
     animation: anipic 2s linear 1s infinite alternate;
     -webkit-animation: anipic 2s linear 1s infinite alternate;
 }
+.contact-wrapper{
+	width: 100%;
+	height: 100%;
+	background: url(../images/index/wj_home5.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	position: relative;
+}
+.contact-title {
+	width: 100%;
+	height: 90px;
+	margin-top: 40px;
+	line-height: 90px;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+.contact-wrapper .companyName {
+	width: 100%;
+	height: 30px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.left_nav {
+	width: 14px;
+	position: fixed;
+	left: 10px;
+	top: 50%;
+	transform: translate(0,-50%);
+	z-index: 12;
+}
+
+.left_nav a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #A5A5A5;
+	border-radius: 50%;
+	margin-top: 28px;
+}
+
+.left_nav .bg_orange {
+	width: 12px;
+	height: 12px;
+	background: #E84027;
+	border: none;
+	border-radius: 50%;
+}
 @keyframes anipic
 {
     0%,20%,40%,60%,80%,to {

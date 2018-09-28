@@ -1,0 +1,317 @@
+body {
+    background: #1a1c2b;
+}
+
+.panel>div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+}
+.animate-wrapper:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.index1 {
+    background: url("../images/second/venues/bg-index1.jpg") no-repeat center;
+}
+
+.index2 {
+    background: url("../images/second/venues/bg-index2.jpg") no-repeat center;
+}
+.index2 .index2-content{
+    display: inline-block;
+    width:32%;
+    vertical-align: middle;
+    margin-left:9.5%;
+    
+}
+ .index2-content .addr {
+    width:240px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background: #e84027;
+    color:#fff;
+ }
+ .index2-content .title {
+    margin-top:30px;
+    font-size:36px;
+    color:#333;
+ }
+ .index2-content .text1{
+     margin-top:15px;
+     font-size:18px;
+     line-height:30px;
+     color:#666;
+ }
+.index2-content .text2{ 
+    position: relative;
+    padding-left:30px;
+    margin-top:35px;
+    line-height:32px;
+    font-size:14px;
+    color:#666;
+}
+.index2-content .icon-mark{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.index3 {
+    background: url("../images/second/venues/bg-index3.jpg") no-repeat center;
+}
+.index3 .index3-img{
+    display: inline-block;
+    vertical-align: middle;
+    width:36%;
+    margin-left:9.5%;
+}
+.index3 .index3-content{
+    display: inline-block;
+    vertical-align: middle;
+    width:34%;
+    margin-left:8.5%;
+    color:#fff;
+    font-size:16px; 
+}
+.index3-content .title{
+    margin-bottom:30px;
+    font-size: 32px;
+    font-weight: normal;
+}
+.index3-content .text2{
+    margin-top:20px;
+}
+.index3-content p {
+    line-height:28px;
+}
+.index4{
+    background: #fff;
+}
+.index4 .index4-img{
+    display: inline-block;
+    vertical-align: middle;
+    width:76%;
+    margin-left:12%;
+}
+.index5{
+    background: url('../images/second/venues/bg-index5.jpg') no-repeat center;
+}
+.index5 .index5-content1{
+    display: inline-block;
+    vertical-align: middle;
+    width:45.6%;
+    margin-left:9.5%;
+}
+.index5 .index5-img{
+    float:left;
+    width:36.5%;
+}
+.index5-content1 .wyds-content {
+    float: left;
+    width: 53%;
+    margin-left: 10.5%;
+    padding-top:30px;
+    color:#fff;
+}
+.icon-wyds{
+    margin-bottom:20px;
+}
+.wyds-info{
+    width:450px;
+    overflow: hidden;
+}
+.wyds-content .text1,
+.wyds-content .text2{
+    font-size:14px;
+    line-height:28px;
+}
+.text1{
+    margin-bottom:20px;
+}
+.info-item{
+    float: left;
+    width:40%;
+    margin-top:30px;
+}
+.info-item:nth-child(2) {
+    width:50%;
+    margin-left:10%;
+}
+.info-item .icon{
+    float:left;
+    margin-right:20px;
+}
+.info-item .info-content {
+    float: left;
+    padding:5px 0;
+}
+.info-content p{
+    line-height:20px;
+}
+.index5 .index5-content2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:13.5%;
+    width: 23%;
+    padding:40px 0;
+}
+.index5-content2>div{
+    overflow: hidden;
+}
+.download-wrapper{
+    margin-top:90px;
+}
+.index5-content2 .title {
+    font-size:32px;
+}
+.btns-wrapper .link {
+    float:left;
+    width:40%;
+    height:48px;
+    margin-top:30px;
+    line-height:48px;
+    text-align: center;
+    border:1px solid #000;
+    color:#000;
+}
+.link .icon{
+    vertical-align: middle;
+    margin-right:10px;
+}
+.link .icon-ios{
+    margin-top:-3px;
+}
+.btns-wrapper .link:nth-child(2n) {
+    margin-left:10%;
+}
+.index6{
+    background: #fff;
+}
+.index6 .index6-content{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:9.5%;
+    width:32%;
+}
+.index6-content .title{
+    font-size:32px;
+    margin-bottom:20px;
+}
+.index6-content p{
+    font-size:14px;
+    line-height:24px;
+}
+.keeper-wrapper{
+    margin-top:50px
+}
+.wallet-wrapper{
+    margin-top:25px;
+}
+.keeper-wrapper .keeper-title,.wallet-wrapper .wallet-title{
+    margin-bottom:10px;
+    line-height:32px;
+    font-size:16px;
+    font-weight: bold;
+}
+.keeper-title .icon,
+.wallet-title .icon{
+    vertical-align: middle;
+    margin-left:15px;
+}
+.border {
+    border-left:10px solid #e84027;
+    margin-right:10px;
+}
+.index6-img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:6%;
+    width:43%;
+}
+.icon{
+    display: inline-block;
+}
+.icon-active {
+    background: url('../images/second/venues/sprite.png') no-repeat -197px 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-android {
+    background: url('../images/second/venues/sprite.png') no-repeat -197px -70px;
+    width: 28px;
+    height: 33px;
+}
+
+.icon-app {
+    background: url('../images/second/venues/sprite.png') no-repeat -267px 0px;
+    width: 19px;
+    height: 30px;
+}
+
+.icon-download {
+    background: url('../images/second/venues/sprite.png') no-repeat -70px -118px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-ios {
+    background: url('../images/second/venues/sprite.png') no-repeat -140px -118px;
+    width: 26px;
+    height: 30px;
+}
+
+.icon-pc {
+    background: url('../images/second/venues/sprite.png') no-repeat 0px -188px;
+    width: 25px;
+    height: 25px;
+}
+
+.icon-registrations {
+    background: url('../images/second/venues/sprite.png') no-repeat 0px -118px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-usageScenarios {
+    background: url('../images/second/venues/sprite.png') no-repeat -45px -188px;
+    width: 22px;
+    height: 22px;
+}
+
+.icon-web {
+    background: url('../images/second/venues/sprite.png') no-repeat -120px -66px;
+    width: 28px;
+    height: 28px;
+}
+
+.icon-wyds {
+    background: url('../images/second/venues/sprite.png') no-repeat 0px 0px;
+    width: 177px;
+    height: 46px;
+}
+
+.icon-ygj {
+    background: url('../images/second/venues/sprite.png') no-repeat 0px -66px;
+    width: 100px;
+    height: 32px;
+}
+
+.icon-ygjApp {
+    background: url('../images/second/venues/sprite.png') no-repeat -197px -123px;
+    width: 30px;
+    height: 30px;
+}
+.icon-mark {
+    background: url('../images/second/venues/sprite.png') no-repeat -267px -50px;
+    width: 18px;
+    height: 24px;
+}
