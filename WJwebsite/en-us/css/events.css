@@ -1,0 +1,146 @@
+body {
+    background: #1a1c2b;
+}
+
+.panel>div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+}
+.animate-wrapper:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.index1 {
+    background: url("../images/second/events/bg-index1.jpg") no-repeat center;
+}
+.index2{
+
+}
+.index2 .index2-list{
+    width:100%;
+    height:100%;
+}
+.index2-list .index2-item{
+    float:left;
+    width:33%;
+    height:50%;
+    background-color:#fff; 
+}
+.index2-list .index2-item:nth-child(3n-1){
+    width:34%;
+}
+.item2{
+    background: url('../images/second/events/index2-content1.jpg') no-repeat center;
+    background-size:100% 100%; 
+}
+.item4 {
+    background: url('../images/second/events/index2-content2.jpg') no-repeat center;
+    background-size:100% 100%;
+}
+.item6 {
+    background: url('../images/second/events/index2-content3.jpg') no-repeat center;
+    background-size:100% 100%;
+}
+.index2-item:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.index2-item .item-content{
+    width:75%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:12.5%;
+}
+.item-content h5 span{
+    display:inline-block;
+    width:36px;
+    color:#e84027;
+    border-bottom:4px solid #e84027;
+}
+.index2-item .item-content p{
+    margin-top:20px;
+    line-height:24px;
+}
+.index3 {
+    background: url("../images/second/events/bg-index3.jpg") no-repeat center;
+}
+.index3 .index3-img{
+    display: inline-block;
+    vertical-align: middle;
+    width:36%;
+    margin-left:9.5%;
+}
+.index3 .index3-content{
+    display: inline-block;
+    vertical-align: middle;
+    width:33%;
+    padding-top:70px;
+    padding-left:64px;
+    margin-left:6%;
+    color:#fff;
+    font-size:16px; 
+    background: url('../images/second/events/index3-bg-text.png') no-repeat left top;
+}
+.index3-content .title{
+    margin-bottom:30px;
+    font-size: 32px;
+    font-weight: normal;
+}
+.index3-content .text2{
+    margin-top:20px;
+}
+.index3-content p {
+    line-height:28px;
+}
+.index4{
+    background: #fff;
+}
+.index4 .index4-img{
+    display: inline-block;
+    vertical-align: middle;
+    width:76%;
+    margin-left:12%;
+}
+.icon-wyds{
+    margin-bottom:20px;
+}
+.wyds-info{
+    width:450px;
+    overflow: hidden;
+}
+.wyds-content .text1,
+.wyds-content .text2{
+    font-size:14px;
+    line-height:28px;
+}
+.text1{
+    margin-bottom:20px;
+}
+.info-item{
+    float: left;
+    width:40%;
+    margin-top:30px;
+}
+.info-item:nth-child(2) {
+    width:50%;
+    margin-left:10%;
+}
+.info-item .icon{
+    float:left;
+    margin-right:20px;
+}
+.info-item .info-content {
+    float: left;
+    padding:5px 0;
+}
+.info-content p{
+    line-height:20px;
+}
