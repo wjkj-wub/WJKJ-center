@@ -26,14 +26,14 @@
 			</ul>
 			<div class="projectsList" style="right: 0;left: initial;opacity:1;background-color: rgba(0, 0, 0, 0.8);">
 					<div class="p_top">
-							<a href="./ESCC.html">
+							<a href="./ESCC.html" target="_blank">
 								<p>电竞赛事<br>
 									<span>ESCC/全国电竞赛事</span>
 									<span>区域级赛事执行</span>
 									<span>电竞赛事青训基地</span>
 								</p>
 							</a>
-							<a href="./ruizhi.html">
+							<a href="./ruizhi.html" target="_blank">
 								<p>电竞场馆<br>
 									<span>首创全民参与移动电竞玩法</span>
 									<span>移动电竞场馆的搭建、赛事承接</span>
@@ -42,14 +42,14 @@
 							</a>
 						</div>
 						<div class="p_top" id="p_bottom">
-							<a href="./haimiou.html">
+							<a href="./haimiou.html" target="_blank">
 								<p>智能设备<br>
 									<span>网咖升级、游戏体验馆</span>
 									<span>创新游戏体验设备</span>
 									<span>游戏体验、推广、分发</span>
 								</p>
 							</a>
-							<a href="./lm.html">
+							<a href="./lm.html" target="_blank">
 								<p>电竞教育<br>
 									<span>兴趣班</span>
 									<span>职业教育</span>
@@ -60,10 +60,10 @@
 			</div>
 		</div>
 		<div class="wrapper">
-			<div class="wheel">
+			<!-- <div class="wheel">
 			    <div class="wheel-inner">
 			        <div class="wheel-list" id="J_banner" style="height: 500px;">
-				    	<!-- <div class="wheel-item" style="left: 0">
+				    	<div class="wheel-item" style="left: 0">
 				    		<img src="http://img1.91.com/uploads/allimg/130425/32-1304251I101.jpg">
 				    	</div>
 				    	<div class="wheel-item">
@@ -74,9 +74,9 @@
 				    	</div>
 				    	<div class="wheel-item">
 				    		<img src="http://pic1.cxtuku.com/00/07/20/b658f9f210c2.jpg">
-				    	</div> -->
+				    	</div>
 				    </div>
-			    </div>
+			    </div> -->
 				<ul class="axle">
 					<li class="gear active"></li>
 					<li class="gear"></li>
@@ -264,70 +264,70 @@
 			    }
 			});
 		}
-		requestBannerImg();
+		// requestBannerImg();
 		//获取banner图片数据
-		function requestBannerImg () {
-			$.ajax({
-			    url: api+"official/website/banner"
-			}).done(function(response) {
-				var code = response.code;
-				var data = response.object;
-			    if(code == 0) {
-			    	$("#J_banner").html("");
-			    	var dataItem = '';
-			    	var dataBanner = '';
-			    	for(let i = 0; i < data.length; i++) {
-			    		dataItem =  data[i];
-			    		dataBanner += '<div class="wheel-item"  data-id="'+dataItem.id+'" data-type="'+dataItem.type+'">'+
-				    		'<img src="http://img.wangyuhudong.com/'+dataItem.icon+'">'+
-				    	'</div>';
-			    	}
-			    	$("#J_banner").append(dataBanner);
-			    	//轮播
-			    	var $wheelList = $(".wheel-list");
-					var $wheelItem = $(".wheel-item");
-					var $wheelClickItem = $(".gear");
-					var clickItem = 0;
-					var currentItem = 0;
-					var oldItem = 0;
-					$wheelItem.eq(0).css("left", 0);
-					//轮播图片尺寸
-					var wheelHeight = $wheelItem[0].clientHeight;
-					setTimeout(function () {
-						$wheelList.height(wheelHeight);
-					}, 500);
+		// function requestBannerImg () {
+		// 	$.ajax({
+		// 	    url: api+"official/website/banner"
+		// 	}).done(function(response) {
+		// 		var code = response.code;
+		// 		var data = response.object;
+		// 	    if(code == 0) {
+		// 	    	$("#J_banner").html("");
+		// 	    	var dataItem = '';
+		// 	    	var dataBanner = '';
+		// 	    	for(let i = 0; i < data.length; i++) {
+		// 	    		dataItem =  data[i];
+		// 	    		dataBanner += '<div class="wheel-item"  data-id="'+dataItem.id+'" data-type="'+dataItem.type+'">'+
+		// 		    		'<img src="http://img.wangyuhudong.com/'+dataItem.icon+'">'+
+		// 		    	'</div>';
+		// 	    	}
+		// 	    	$("#J_banner").append(dataBanner);
+		// 	    	//轮播
+		// 	    	var $wheelList = $(".wheel-list");
+		// 			var $wheelItem = $(".wheel-item");
+		// 			var $wheelClickItem = $(".gear");
+		// 			var clickItem = 0;
+		// 			var currentItem = 0;
+		// 			var oldItem = 0;
+		// 			$wheelItem.eq(0).css("left", 0);
+		// 			//轮播图片尺寸
+		// 			var wheelHeight = $wheelItem[0].clientHeight;
+		// 			setTimeout(function () {
+		// 				$wheelList.height(wheelHeight);
+		// 			}, 500);
 					
 
-					//轮播－自动播放
-					function commonFun () {
-						oldItem = currentItem;
-						currentItem <= 2 ? currentItem++ : currentItem = 0;
-						$wheelItem.eq(oldItem).animate({left:"-100%"}, 1000);
-						$wheelItem.eq(currentItem).css("left","100%").animate({left:0}, 1000);
-						$wheelClickItem.eq(currentItem).addClass("active").siblings().removeClass("active");
-					}
-					var wheelTime = setInterval(commonFun, 5000);
-					//轮播－点击切换
-					$wheelClickItem.on('click', function () {
-						clearInterval(wheelTime);
-						var _this = $(this);
-						clickItem = $wheelClickItem.index(_this);
-						_this.addClass("active").siblings().removeClass("active");
-						if(clickItem == currentItem) {
-							return;
-						} else {
-							oldItem = currentItem;
-							currentItem = clickItem;
-							$wheelItem.eq(oldItem).animate({left:"-100%"}, 600);
-							$wheelItem.eq(currentItem).css("left","100%").animate({left:0}, 600);
-							wheelTime = setInterval(commonFun, 2000);
-						}
-					});
-			    } else if (code == -3) {
+		// 			//轮播－自动播放
+		// 			function commonFun () {
+		// 				oldItem = currentItem;
+		// 				currentItem <= 2 ? currentItem++ : currentItem = 0;
+		// 				$wheelItem.eq(oldItem).animate({left:"-100%"}, 1000);
+		// 				$wheelItem.eq(currentItem).css("left","100%").animate({left:0}, 1000);
+		// 				$wheelClickItem.eq(currentItem).addClass("active").siblings().removeClass("active");
+		// 			}
+		// 			var wheelTime = setInterval(commonFun, 5000);
+		// 			//轮播－点击切换
+		// 			$wheelClickItem.on('click', function () {
+		// 				clearInterval(wheelTime);
+		// 				var _this = $(this);
+		// 				clickItem = $wheelClickItem.index(_this);
+		// 				_this.addClass("active").siblings().removeClass("active");
+		// 				if(clickItem == currentItem) {
+		// 					return;
+		// 				} else {
+		// 					oldItem = currentItem;
+		// 					currentItem = clickItem;
+		// 					$wheelItem.eq(oldItem).animate({left:"-100%"}, 600);
+		// 					$wheelItem.eq(currentItem).css("left","100%").animate({left:0}, 600);
+		// 					wheelTime = setInterval(commonFun, 2000);
+		// 				}
+		// 			});
+		// 	    } else if (code == -3) {
 			    	
-			    }
-			});
-		}
+		// 	    }
+		// 	});
+		// }
 	});
 	
 	</script>
