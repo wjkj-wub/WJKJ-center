@@ -103,11 +103,42 @@ body {
 .index4{
     background: #fff;
 }
-.index4 .index4-img{
+.index4 .index4-content {
+    position: relative;
     display: inline-block;
     vertical-align: middle;
-    width:76%;
-    margin-left:12%;
+    width: 76%;
+    padding-top: 38%;
+    height: 0;
+    margin-left: 12%;
+    background: url('../images/second/events/index4-content.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.index4-content .title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #e84027;
+}
+
+.index4-content .info1 {
+    position: absolute;
+    top: 20px;
+    left: 38%;
+    width: 40.1%;
+    font-size: 14px;
+}
+
+.index4-content .info2 {
+    position: absolute;
+    bottom: 0;
+    right: 38%;
+    width: 36%;
+    font-size: 14px;
+    text-align: right;
 }
 .icon-wyds{
     margin-bottom:20px;

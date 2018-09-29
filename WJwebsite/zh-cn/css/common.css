@@ -90,6 +90,35 @@
     animation-fill-mode: both;
     animation-name: ahover;
 }
+.contact-wrapper {
+	width: 100%;
+	height: 100%;
+	background: url(../images/index/wj_home5.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	position: relative;
+}
+
+.contact-title {
+	width: 100%;
+	height: 90px;
+	margin-top: 40px;
+	line-height: 90px;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.contact-wrapper .companyName {
+	width: 100%;
+	height: 30px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
 @keyframes ahover
 {
     0%,20%,40%,60%,80%,to {
