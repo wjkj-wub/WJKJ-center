@@ -471,16 +471,15 @@
 .main-content, .subsidiary-company-content {
 	position: absolute;
 	top: 320px;
+	width:100%;
+	text-align: center;
 }
 .main-content-item, .subsidiary-company-content-item {
 	display: inline-block;
 	width: 160px;
 	height: 50px;
 	line-height: 50px;
-	margin-right: 50px;
-}
-.main-content-item:last-child, .subsidiary-company-content-item:last-child {
-	margin-right: 0;
+	margin: 0 15px;
 }
 .subsidiary-company-content-item {
 	line-height: 1;

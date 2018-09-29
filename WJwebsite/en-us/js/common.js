@@ -1,4 +1,4 @@
-$('.nav_more').hover(function(){
+$('.mores').hover(function(){
     $(".nav").finish();
     $('.nav').animate({
         right: "90px"
