@@ -315,11 +315,12 @@
 .snapshot-list .snapshot-list-item {
 	position: relative;
 	display: inline-block;
-	width: 110px;
-	height: 110px;
-	line-height: 110px;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
 	text-align: center;
 	color: #fff;
+	background-size:cover !important; 
 }
 .snapshot-list .snapshot-list-item.active {
 	border: 2px solid #ff5a00;
@@ -476,8 +477,9 @@
 }
 .main-content-item, .subsidiary-company-content-item {
 	display: inline-block;
-	width: 160px;
+	min-width: 150px;
 	height: 50px;
+	padding:0 10px;
 	line-height: 50px;
 	margin: 0 15px;
 }
